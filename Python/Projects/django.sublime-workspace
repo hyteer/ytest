@@ -1,0 +1,436 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ht",
+				"HttpResponse\tclass"
+			],
+			[
+				"H",
+				"HttpResponse\tclass"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "mysite/mysite/settings.py",
+			"settings":
+			{
+				"buffer_size": 3129,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mysite/tool/views.py",
+			"settings":
+			{
+				"buffer_size": 297,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mysite/mysite/urls.py",
+			"settings":
+			{
+				"buffer_size": 1244,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 239.0,
+		"last_filter": "Package Control: re",
+		"selected_items":
+		[
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Boxy Theme",
+				"Boxy Theme: Activation"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/ytest/Python/Projects",
+		"/E/ytest/Python/Projects/mysite",
+		"/E/ytest/Python/Projects/mysite/mysite",
+		"/E/ytest/Python/Projects/mysite/tool",
+		"/E/ytest/Python/Projects/ytcrm",
+		"/E/ytest/Python/Projects/ytcrm/report",
+		"/E/ytest/Python/Projects/ytcrm/ytcrm"
+	],
+	"file_history":
+	[
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/pep8_autoformat.sublime-settings",
+		"/E/ytest/Python/Projects/mysite/mysite/urls.py",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Pylinter.sublime-settings",
+		"/E/ytest/Python/Projects/django.sublime-project",
+		"/E/ytest/Python/Projects/mysite/tool/views.py",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Anaconda.sublime-settings",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/JSON.sublime-settings",
+		"/E/ytest/Python/Projects/Temp/test.py",
+		"/E/ytest/Python/Projects/django.sublime-build",
+		"/E/ytest/Python/Projects/.sublime-project",
+		"/D/Testing/Python/Test/Locust/scsp_loadtest.py",
+		"/D/Testing/Python/Test/Time/time_triger.py",
+		"/D/Testing/Python/Test/Locust/locustfile.py",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Testing/Python/Test/IO/file_test/os_test.py",
+		"/D/Testing/Python/Test/Obj&Class/decorator_test2.py",
+		"/D/Web/8h_flasky/app/templates/base.html",
+		"/D/Web/flasky/app/templates/auth/unconfirmed.html",
+		"/D/Web/flasky/app/templates/auth/login.html",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Default (Windows).sublime-keymap",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Pylinter.sublime-settings",
+		"/D/Web/flasky/hello.py",
+		"/D/flask/venv/Lib/site-packages/flask_bootstrap/templates/bootstrap/base.html",
+		"/C/Python27/Lib/site-packages/flask_script/__init__.py",
+		"/D/flask/testapp/first.py",
+		"/D/Node/demo/views/layout.hbs",
+		"/D/Node/demo/routes/index.js",
+		"/D/Node/demo/public/angular/reminder.html",
+		"/D/Node/demo/views/angular.hbs",
+		"/D/Node/demo/public/angular.html",
+		"/D/Node/angular/hello.html",
+		"/D/Node/demo/views/about.hbs",
+		"/D/Node/demo/public/stylesheets/style.css",
+		"/D/Node/demo/views/index.hbs",
+		"/D/Node/demo/views/demo.hbs",
+		"/D/Node/angular/demo.html",
+		"/D/Node/ember-start/app/templates/application.hbs",
+		"/D/Node/ember-start/app/templates/index.hbs",
+		"/D/Node/ember-start/app/templates/scientists.hbs",
+		"/D/Node/ember-start/app/routes/index.js",
+		"/D/Node/ember-start/app/templates/components/blog-post.hbs",
+		"/D/Node/ember-start/app/templates/webtechs.hbs",
+		"/D/Node/ember-start/app/templates/components/people-list.hbs",
+		"/D/Node/ember-start/app/routes/scientists.js",
+		"/D/Node/ember-start/app/routes/webtechs.js",
+		"/D/Node/ember-start/app/app.js",
+		"/D/Node/demo/app.js",
+		"/D/Node/demo/views/error.hbs",
+		"/D/Node/demo/bin/www",
+		"/D/Node/demo/public/Bak/index.html",
+		"/D/Node/demo/log/app-0.log",
+		"/D/Node/demo/log/pm2-0.log",
+		"/E/Dev/nodejs/Projects/meadowlark/index.js",
+		"/D/Node/demo/package.json",
+		"/D/Node/demo/public/about.html",
+		"/D/Node/demo/public/demo.html",
+		"/D/Node/demo/public/index.html",
+		"/D/Node/testapp/app.js",
+		"/D/flask/testapp/renderTemplate.py",
+		"/E/wamp/www/test/test.htm",
+		"/E/Dev/Python/Classic/fib.py",
+		"/E/Dev/Python/Study/while.py",
+		"/D/Web/ghost/config.js",
+		"/E/Dev/Python/Test/regexp2.py",
+		"/E/Dev/Python/Test/regexp3.py",
+		"/E/Work/Data/nginx-mysql.conf",
+		"/E/Work/Data/sites-available/default-red",
+		"/D/Web/ghost/content/themes/casper/default.hbs",
+		"/D/Web/ghost/content/themes/casper/index.hbs",
+		"/D/Web/ghost/index.js",
+		"/E/Dev/Python/Test/pass.py",
+		"/E/Dev/Python/Test/for.py",
+		"/E/Dev/Python/Test/forelse.py",
+		"/E/Dev/Python/Test/forAndwhile.py",
+		"/D/Web/ghost/config.example.js",
+		"/E/Dev/nodejs/Projects/meadowlarkTest/views/newsletter-ajax.hbstest",
+		"/E/Dev/nodejs/Projects/meadowlarkTest/views/home.hbs",
+		"/E/Dev/nodejs/Projects/meadowlarkTest/views/newsletter.hbs",
+		"/E/Dev/nodejs/Projects/meadowlarkTest/views/newsletter-ajax.hbs",
+		"/D/Down/Sublime Text Build 3083 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/Down/Sublime Text Build 3083 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Down/Sublime Text Build 3083 x64/Data/Packages/User/JSON.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(=>):).*",
+			"):\n",
+			"        \n",
+			"privacy",
+			"Gravatar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "mysite/mysite/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mysite/tool/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mysite/mysite/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1163,
+								1163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 143.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "django.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
