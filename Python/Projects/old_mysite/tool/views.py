@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponse, Http404
-import time
 
 # Create your views here.
 
@@ -15,9 +14,3 @@ def add2(request,a,b):
 	b = int(b)
 	c = a + b
 	return HttpResponse(c)
-
-def time_convert(req,timestamp):
-	#timestamp = str(timestamp)
-	timearray = time.localtime(timestamp)
-	localtime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
-	return HttpResponse(localtime)
