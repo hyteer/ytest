@@ -1,0 +1,10 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+<div id="nav">
+	<ul>
+		<li><a href="{% url 'home' %}">Home|</a></li>
+		<li><a href="{% url 'tool:index' %}">Tool|</a></li>
+		<li><a href="{% url 'polls:index' %}">Polls</a></li>
+	</ul>
+	
+</div>
