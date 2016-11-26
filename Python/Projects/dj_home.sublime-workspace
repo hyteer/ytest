@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"date",
+				"date_hierarchy\tstatement"
+			],
+			[
+				"CHo",
+				"ChoiceInline\tclass"
+			],
+			[
+				"Q",
+				"QuestionAdmin\tclass"
+			],
+			[
+				"temp",
+				"template_name\tstatement"
+			],
+			[
+				"ge",
+				"generic\tmodule"
+			],
+			[
+				"ques",
+				"question\tstatement"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect\tclass"
+			],
+			[
+				"selec",
+				"selected_choice\tstatement"
+			],
+			[
+				"K",
+				"KeyError\tclass"
+			],
+			[
+				"get",
+				"get_object_or_404\tfunction"
+			],
+			[
+				"qu",
+				"question\tstatement"
+			],
+			[
+				"Htt",
+				"HttpResponse\tclass"
+			],
+			[
+				"Ht",
+				"Http404\tclass"
+			],
+			[
+				"too",
+				"tool_views\tmodule"
+			],
+			[
+				"req",
+				"request\tparam"
+			],
+			[
+				"quest",
+				"question_id\tparam"
+			],
+			[
 				"t",
 				"time_convert\tfunction"
 			],
@@ -14,10 +78,6 @@
 			[
 				"tim",
 				"timedelta\tclass"
-			],
-			[
-				"date",
-				"datetime"
 			],
 			[
 				"time",
@@ -32,10 +92,6 @@
 				"DateTimeField\tclass"
 			],
 			[
-				"Ht",
-				"HttpResponse\tclass"
-			],
-			[
 				"H",
 				"HttpResponse\tclass"
 			]
@@ -47,7 +103,7 @@
 			"file": "mysite/mysite/settings.py",
 			"settings":
 			{
-				"buffer_size": 3194,
+				"buffer_size": 3338,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -56,54 +112,36 @@
 			"file": "mysite/polls/models.py",
 			"settings":
 			{
-				"buffer_size": 750,
+				"buffer_size": 1019,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mysite/tool/views.py",
+			"file": "mysite/polls/tests.py",
 			"settings":
 			{
-				"buffer_size": 586,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Pylinter.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 30,
+				"buffer_size": 1197,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Pylinter.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 1392,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSublimeLinter-pylint\n--------------------\n\n  SublimeLinter-pylint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pylint.\n  \n  INSTALLATION\n  ------------\n  Before this plugin will activate, you *must* follow the installation\n  instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-pylint\n\n\nAnaconda\n--------\n\n  \n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n                                       The Sublime Text 3 Python IDE\n  \n  \n  Anaconda v2.1.10\n  ================\n  \n  Welcome to new anaconda v2.1.10, what do you can find in this minor release?\n  \n  ## Features\n  \n    - Disable linting algo in scratch buffers. resolves #579\n    - Fallback to ST3 builting Goto Definition when Jedi does not fund anything, resolves '502\n  \n  ## Fixes\n  \n    - Import Validator now handles relative imports right, resolves # 432\n",
+			"file": "mysite/polls/admin.py",
 			"settings":
 			{
-				"buffer_size": 1162,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 674,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mysite/tool/urls.py",
+			"file": "mysite/mysite/templates/admin/base_site.html",
 			"settings":
 			{
-				"buffer_size": 232,
+				"buffer_size": 283,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -187,21 +225,55 @@
 		"/E/ytest/Python/Projects",
 		"/E/ytest/Python/Projects/mysite",
 		"/E/ytest/Python/Projects/mysite/mysite",
+		"/E/ytest/Python/Projects/mysite/mysite/templates",
+		"/E/ytest/Python/Projects/mysite/mysite/templates/admin",
 		"/E/ytest/Python/Projects/mysite/polls",
+		"/E/ytest/Python/Projects/mysite/polls/static/polls",
+		"/E/ytest/Python/Projects/mysite/polls/templates/polls",
 		"/E/ytest/Python/Projects/mysite/tool",
-		"/E/ytest/Python/Projects/Temp"
+		"/E/ytest/Python/Projects/mysite/tool/templates",
+		"/E/ytest/Python/Projects/mysite/tool/templates/tool",
+		"/E/ytest/Python/Projects/old_mysite/mysite",
+		"/E/ytest/Python/Projects/old_mysite/temp"
 	],
 	"file_history":
 	[
-		"/E/ytest/Python/Projects/mysite/tool/views.py",
-		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Package Control.sublime-settings",
-		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Pylinter.sublime-settings",
-		"/E/ytest/Python/Projects/mysite/polls/admin.py",
+		"/E/ytest/Python/Projects/mysite/tool/templates/tool/index.html",
 		"/E/ytest/Python/Projects/mysite/polls/views.py",
-		"/E/ytest/Python/Projects/Temp/test.py",
 		"/E/ytest/Python/Projects/mysite/polls/urls.py",
+		"/E/ytest/Python/Projects/mysite/tool/templates/tool/tool.html",
+		"/E/ytest/Python/Projects/mysite/mysite/templates/nav.html",
+		"/E/ytest/Python/Projects/mysite/mysite/templates/index.html",
+		"/E/Dev/Test/public/css/nav.htm",
+		"/E/ytest/Python/Projects/mysite/mysite/static/main.css",
+		"/E/ytest/Python/Projects/mysite/polls/templates/polls/base.html",
+		"/E/ytest/Python/Projects/mysite/polls/templates/polls/results.html",
+		"/E/ytest/Python/Projects/mysite/polls/templates/polls/detail.html",
+		"/E/ytest/Python/Projects/mysite/polls/templates/polls/index.html",
+		"/E/ytest/Python/Projects/mysite/tool/templates/tool/base.html",
+		"/E/ytest/Python/Projects/mysite/polls/static/polls/style.css",
 		"/E/ytest/Python/Projects/mysite/mysite/urls.py",
+		"/E/ytest/Python/Projects/mysite/static/main.css",
+		"/E/ytest/Python/Projects/mysite/tool/views.py",
+		"/E/ytest/Python/Projects/mysite/polls/urls_bak1126.py",
+		"/E/ytest/Python/Projects/mysite/polls/views_bak1126.py",
 		"/E/ytest/Python/Projects/mysite/tool/urls.py",
+		"/E/ytest/Python/Projects/mysite/polls/templates/polls/index_old.html",
+		"/E/ytest/Python/Projects/mysite/polls/views_bak.py",
+		"/E/ytest/Python/Projects/mysite/mysite/views.py",
+		"/E/ytest/Python/Projects/mysite/tool/templates/tool/tools.html",
+		"/E/ytest/Python/Projects/mysite/templates/index.html",
+		"/E/ytest/Python/Projects/mysite/templates/index_org.html",
+		"/E/ytest/Python/Projects/mysite/templates/base.html",
+		"/E/ytest/Python/Projects/Temp/timetest.py",
+		"/E/ytest/Python/Projects/mysite/templates/nav.html",
+		"/E/ytest/Python/Projects/mysite/templates/bottom.html",
+		"/E/ytest/Python/Projects/mysite/mysite/templates/index_site.html",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Pylinter.sublime-settings",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Pylinter.sublime-settings",
+		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/E/ytest/Python/Projects/mysite/polls/admin.py",
+		"/E/ytest/Python/Projects/Temp/test.py",
 		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/pep8_autoformat.sublime-settings",
 		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
 		"/E/ytest/Python/Projects/django.sublime-project",
@@ -219,7 +291,6 @@
 		"/D/Web/flasky/app/templates/auth/unconfirmed.html",
 		"/D/Web/flasky/app/templates/auth/login.html",
 		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Default (Windows).sublime-keymap",
-		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Pylinter.sublime-settings",
 		"/D/Web/flasky/hello.py",
 		"/D/flask/venv/Lib/site-packages/flask_bootstrap/templates/bootstrap/base.html",
 		"/C/Python27/Lib/site-packages/flask_script/__init__.py",
@@ -284,7 +355,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -320,7 +391,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -329,15 +400,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3194,
+						"buffer_size": 3338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2917,
-								2917
+								3334,
+								3334
 							]
 						],
 						"settings":
@@ -358,10 +429,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 1305.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -370,15 +441,58 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 750,
+						"buffer_size": 1019,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								166,
-								166
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mysite/polls/tests.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
 							]
 						],
 						"settings":
@@ -404,138 +518,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "mysite/tool/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Pylinter.sublime-settings",
+					"file": "mysite/polls/admin.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30,
+						"buffer_size": 674,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Pylinter.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								788,
-								763
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								577,
-								578
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"default_dir": "E:\\ytest\\Python\\Projects",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "mysite/tool/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
+								561,
+								561
 							]
 						],
 						"settings":
@@ -557,7 +553,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "mysite/mysite/templates/admin/base_site.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -644,7 +668,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 245.0,
+	"side_bar_width": 217.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
