@@ -28,5 +28,6 @@ urlpatterns = [
     url(r'^time/(\d+)/$', tool_views.time_convert, name='time_convert'),
     url(r'^polls/', include('polls.urls'), name="polls"),
     url(r'^tool/', include('tool.urls')),
+    url(r'^crm/', include('crm.urls')),
 
 ]
