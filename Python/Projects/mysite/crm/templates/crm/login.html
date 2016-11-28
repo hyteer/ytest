@@ -1,0 +1,13 @@
+{% extends 'polls/base.html' %}
+{% block title %}Login CRM System{% endblock %}
+
+{% block content %}
+
+<p>Login</p>
+<form action="{% url 'crm:login' %}" method="post">
+	{% csrf_token %}
+	{{ form }}
+	<input type="submit" value="Submit" />
+</form>
+
+{% endblock %}
