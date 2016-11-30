@@ -2,7 +2,8 @@ from django.shortcuts import render, HttpResponseRedirect
 from django.http import HttpResponse
 from django.contrib.auth import authenticate,login, logout
 from django.contrib.auth.decorators import login_required
-from .forms import NameForm, LoginForm
+from .forms import NameForm, LoginForm, ContactForm
+from django.core.mail import send_mail
 
 # Create your views here.
 
@@ -40,15 +41,19 @@ def login_old(req):
 
 def user_login(req):
 	if req.method == 'POST':
-		username = req.POST['username']
-		password = req.POST['password']
-		user = authenticate(username=username, password=password)
 		form = LoginForm(req.POST)
-		if form.is_valid() and user is not None:
-			login(req, user)
-			return render(req, 'crm/welcome.html')
-		else:
-			return HttpResponse('Invalid login.')
+		if form.is_valid():
+			#username = req.POST['username']
+			#password = req.POST['password']
+			username = form.cleaned_data['username']
+			password = form.cleaned_data['password']
+			user = authenticate(username=username, password=password)
+		
+			if user is not None:
+				login(req, user)
+				return render(req, 'crm/welcome.html')
+			else:
+				return HttpResponse('Invalid login.')
 	else:
 		form = LoginForm()
 		return render(req, 'crm/login.html', {'form': form})
@@ -73,3 +78,23 @@ def thanks(req):
 @login_required(redirect_field_name='/crm/login')
 def secret(req):
 	return HttpResponse('this is secret content...')
+
+
+@login_required()
+def contact_us(req):
+	if req.method == 'POST':
+		form = ContactForm(req.POST)
+		if form.is_valid():
+			subject = form.cleaned_data['subject']
+			message = form.cleaned_data['message']
+			sender = form.cleaned_data['sender']
+			cc_myself = form.cleaned_data['cc_myself']
+			recipients = ['40577190@qq.com']
+			if cc_myself:
+				recipients.append(sender)
+				send_mail(subject, message, sender, recipients)
+				return HttpResponse('we have been send a mail to u, thanks.')
+	else:
+		form = ContactForm()
+		return render(req, 'crm/mail.html', {'form': form})
+		
