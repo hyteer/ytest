@@ -129,3 +129,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "mysite/static"),
     'static',
 ]
+
+LOGIN_URL = '/crm/login/'
