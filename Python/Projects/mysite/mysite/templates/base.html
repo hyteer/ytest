@@ -1,17 +1,43 @@
 <!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/starter-template/ -->
 <html>
-<head>
-	<title>{% block title %}YTest{% endblock %}</title>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/favicon.ico">
+ 
+    <title>{% block title %}YTest{% endblock %}</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/static/bootstrap336/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/styles.css" rel="stylesheet">
 </head>
+ 
 <body>
-{% include 'nav.html' %}
+    <div class="container">
 
-{% block content %}
-<h3>YTest demo site for dj.</h3>
-{% endblock %}
+    {% include "nav.html" %}
+    
+ 
+    <div id="main_container" class="container">
+    {% block content %}
 
-{% include 'bottom.html' %}
+        <h3>A test tools suite</h3>
+        <p>just a test.<br> find more.</p>
 
-
+    {% endblock %}
+    </div>
+ 
+    </div><!-- /.container -->
+ 
+ 
+    <!-- jquery JavaScript -->
+    <script src="/static/bootstrap336/js/jquery-1.11.3.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/bootstrap336/js/bootstrap.min.js"></script> 
+   
+ 
 </body>
 </html>

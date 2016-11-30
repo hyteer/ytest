@@ -23,7 +23,10 @@ from tool import views as tool_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home, name='home'),
+    url(r'^bootest/$', views.bootest, name='bootest'),
     url(r'^add/$', tool_views.add, name='add'),
+    url(r'^mail/$', views.contact_us, name='contact_us'),
+    url(r'^about/$', views.about, name='about'),
     url(r'^add/(\d+)/(\d+)/$', tool_views.add2, name='add2'),
     url(r'^time/(\d+)/$', tool_views.time_convert, name='time_convert'),
     url(r'^polls/', include('polls.urls'), name="polls"),

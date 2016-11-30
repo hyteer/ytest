@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+<div id="nav">
+	<ul>
+		<li><a href="{% url 'home' %}">Home|</a></li>
+		<li><a href="{% url 'tool:index' %}">Tool|</a></li>
+		<li><a href="{% url 'polls:index' %}">Polls|</a></li>
+		<li><a href="{% url 'crm:index' %}">CRM|</a></li>
+		{% if user.is_authenticated %}
+		<li><a href="{% url 'crm:user_logout' %}">Logout</a></li>
+	    {% else %}
+	    <li><a href="{% url 'crm:user_login' %}">Login</a></li>
+		{% endif %}
+	</ul>
+	
+</div>
