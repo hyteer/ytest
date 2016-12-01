@@ -24,4 +24,8 @@
 {% endfor %}
 </ul>
 
+<div>
+	<a href="{% url 'polls:results' question.id %}">See results</a>
+</div>
+
 {% endblock %}
