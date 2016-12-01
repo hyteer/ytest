@@ -32,5 +32,6 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls'), name="polls"),
     url(r'^tool/', include('tool.urls')),
     url(r'^crm/', include('crm.urls')),
+    url(r'^chat/', include('chat.urls')),
 
 ]

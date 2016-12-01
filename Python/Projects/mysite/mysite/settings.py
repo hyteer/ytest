@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'tool',
     'crm',
     'tls',
+    'chat',
 ]
 
 MIDDLEWARE = [

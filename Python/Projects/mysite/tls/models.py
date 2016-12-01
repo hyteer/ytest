@@ -15,7 +15,7 @@ class Order(models.Model):
 	order_no = models.CharField(max_length=40)
 	total_fee = models.DecimalField(max_digits=8, decimal_places=4)
 	trade_type = models.ForeignKey('TradeType', null=True, blank=True)
-	created_time = models.DateTimeField('Created Time', default=timezone.now())
+	created_time = models.DateTimeField('Created Time', default=timezone.now)
 	mch_id = models.CharField(max_length=20)
 	related_project = models.ForeignKey('Project')
 	remark = models.TextField()
