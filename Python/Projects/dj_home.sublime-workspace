@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Ht",
+				"HttpResponse\tclass"
+			],
+			[
 				"pa",
 				"padding-right"
 			],
@@ -88,10 +92,6 @@
 				"question\tstatement"
 			],
 			[
-				"Ht",
-				"Http404\tclass"
-			],
-			[
 				"too",
 				"tool_views\tmodule"
 			],
@@ -139,7 +139,7 @@
 			"file": "mysite/mysite/settings.py",
 			"settings":
 			{
-				"buffer_size": 3388,
+				"buffer_size": 3400,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -148,7 +148,7 @@
 			"file": "mysite/mysite/templates/index.html",
 			"settings":
 			{
-				"buffer_size": 152,
+				"buffer_size": 150,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -166,7 +166,7 @@
 			"file": "mysite/mysite/templates/nav.html",
 			"settings":
 			{
-				"buffer_size": 2172,
+				"buffer_size": 2233,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -184,7 +184,7 @@
 			"file": "mysite/mysite/urls.py",
 			"settings":
 			{
-				"buffer_size": 1363,
+				"buffer_size": 1405,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -194,6 +194,53 @@
 			"settings":
 			{
 				"buffer_size": 1009,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "from django.http import HttpResponse\nfrom ",
+			"file": "first/realtime/consumer.py",
+			"file_size": 0,
+			"file_write_time": 131250772029035627,
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mysite/polls/templates/polls/index_old.html",
+			"settings":
+			{
+				"buffer_size": 500,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mysite/polls/templates/polls/index.html",
+			"settings":
+			{
+				"buffer_size": 494,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "first/first/urls.py",
+			"settings":
+			{
+				"buffer_size": 924,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "first/first/views.py",
+			"settings":
+			{
+				"buffer_size": 87,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -367,17 +414,17 @@
 	"expanded_folders":
 	[
 		"/E/ytest/Python/Projects",
+		"/E/ytest/Python/Projects/first",
+		"/E/ytest/Python/Projects/first/realtime",
 		"/E/ytest/Python/Projects/mysite",
 		"/E/ytest/Python/Projects/mysite/crm",
 		"/E/ytest/Python/Projects/mysite/crm/templates",
 		"/E/ytest/Python/Projects/mysite/crm/templates/crm",
 		"/E/ytest/Python/Projects/mysite/crm/templates/registration",
 		"/E/ytest/Python/Projects/mysite/mysite",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/admin",
+		"/E/ytest/Python/Projects/mysite/polls",
 		"/E/ytest/Python/Projects/mysite/polls/templates",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls",
-		"/E/ytest/Python/Projects/mysite/tool/templates",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool"
+		"/E/ytest/Python/Projects/mysite/polls/templates/polls"
 	],
 	"file_history":
 	[
@@ -549,7 +596,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -558,15 +605,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3388,
+						"buffer_size": 3400,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2922,
-								2922
+								0,
+								0
 							]
 						],
 						"settings":
@@ -590,7 +637,7 @@
 						"translation.y": 1120.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -599,14 +646,14 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 152,
+						"buffer_size": 150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
+								0,
 								0
 							]
 						],
@@ -618,7 +665,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
@@ -645,11 +692,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -658,15 +705,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2172,
+						"buffer_size": 2233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								125
+								0,
+								0
 							]
 						],
 						"settings":
@@ -678,7 +725,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -706,7 +753,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -715,15 +762,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1363,
+						"buffer_size": 1405,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								992,
-								992
+								0,
+								0
 							]
 						],
 						"settings":
@@ -747,7 +794,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -763,8 +810,8 @@
 						"selection":
 						[
 							[
-								169,
-								169
+								453,
+								453
 							]
 						],
 						"settings":
@@ -786,11 +833,186 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "first/realtime/consumer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "mysite/polls/templates/polls/index_old.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "mysite/polls/templates/polls/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "first/first/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "first/first/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "mysite/crm/models.py",
 					"semi_transient": false,
 					"settings":
@@ -825,11 +1047,11 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 13,
 					"file": "mysite/crm/admin.py",
 					"semi_transient": false,
 					"settings":
@@ -864,11 +1086,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 14,
 					"file": "mysite/crm/views.py",
 					"semi_transient": false,
 					"settings":
@@ -903,11 +1125,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 15,
 					"file": "mysite/mysite/static/styles.css",
 					"semi_transient": false,
 					"settings":
@@ -933,11 +1155,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 16,
 					"file": "mysite/crm/templates/crm/name.html",
 					"semi_transient": false,
 					"settings":
@@ -962,11 +1184,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 17,
 					"file": "mysite/crm/forms.py",
 					"semi_transient": false,
 					"settings":
@@ -1002,11 +1224,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 18,
 					"file": "mysite/mysite/forms.py",
 					"semi_transient": false,
 					"settings":
@@ -1031,11 +1253,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 19,
 					"file": "mysite/crm/templates/crm/login.html",
 					"semi_transient": false,
 					"settings":
@@ -1060,11 +1282,11 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 20,
 					"file": "mysite/crm/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -1099,11 +1321,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 21,
 					"file": "mysite/templates/mail.html",
 					"semi_transient": false,
 					"settings":
@@ -1128,7 +1350,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
