@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% load staticfiles %}
+  <link rel="stylesheet" type="text/css" href="{% static 'chat.css' %}">
+
+  <h2>{{ room.label }}</h2>
+  <div class="msgs">
+    <ul class="messages"></ul>
+  </div>
+  
+  <div class="msgForm">
+    <div id="cont">
+    <form class="sendForm" action="">
+       <input id="name" autocomplete="off" placeholder="Name"/><br>
+        <input id="m" autocomplete="off" placeholder="Type message" /><button>Send</button>
+    </form>
+    </div>
+  </div>
+{% endblock content %}
+
+{% block afterbody %}
+  <!-- Realtime JavaScript -->
+  <script type="text/javascript" src='{% static "js/reconnecting-websocket.min.js" %}'></script>
+  <script type="text/javascript" src='{% static "ws.js" %}'></script>
+{% endblock afterbody %}

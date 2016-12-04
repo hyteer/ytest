@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Channels Test{% endblock %}
+
+{% block content %}
+
+<h3>Channels Test</h3>
+
+<form action="{% url 'realtime:index' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
+<br>
+<div>
+<a href="{% url 'realtime:room_list' %}">Room list</a>
+</div>
+{% endblock %}

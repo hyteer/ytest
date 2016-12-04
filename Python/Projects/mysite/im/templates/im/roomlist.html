@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Room list{% endblock %}
+
+{% block content %}
+
+
+<body>
+<h3>Room list</h3>
+
+{% if room_list %}
+	<ul>
+	{% for room in room_list %}
+		<li><a href="{% url 'im:room' room.label %}">
+		{{ room.name }} ({{ room.label }})
+		</a></li>
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>No room are available.</p>
+{% endif %}
+</body>
+
+{% endblock %}

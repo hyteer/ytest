@@ -77,7 +77,7 @@ def thanks(req):
 
 @login_required(redirect_field_name='/crm/login')
 def secret(req):
-	return HttpResponse('this is secret content...')
+	return render(req, 'crm/secret.html')
 
 
 
