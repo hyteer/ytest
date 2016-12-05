@@ -208,145 +208,28 @@
 	"buffers":
 	[
 		{
-			"file": "mysite/mysite/settings.py",
+			"file": "flask.sublime-project",
 			"settings":
 			{
-				"buffer_size": 3716,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/crm/views.py",
-			"settings":
-			{
-				"buffer_size": 2251,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/mysite/urls.py",
-			"settings":
-			{
-				"buffer_size": 1443,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/im/models.py",
-			"settings":
-			{
-				"buffer_size": 1405,
+				"buffer_size": 364,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mysite/im/admin.py",
+			"file": "blog/config.py",
 			"settings":
 			{
-				"buffer_size": 806,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mysite/mysite/templates/nav.html",
-			"settings":
-			{
-				"buffer_size": 2340,
+				"buffer_size": 1831,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mysite/mysite/routing.py",
+			"file": "blog/manage.py",
 			"settings":
 			{
-				"buffer_size": 323,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/im/templates/im/index.html",
-			"settings":
-			{
-				"buffer_size": 342,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/im/urls.py",
-			"settings":
-			{
-				"buffer_size": 451,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/im/templates/im/roomlist.html",
-			"settings":
-			{
-				"buffer_size": 367,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/im/templates/im/room.html",
-			"settings":
-			{
-				"buffer_size": 1452,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/im/views.py",
-			"settings":
-			{
-				"buffer_size": 1691,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mysite/im/consumers.py",
-			"settings":
-			{
-				"buffer_size": 2614,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dj_home.sublime-project",
-			"settings":
-			{
-				"buffer_size": 356,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Temp/list_test.py",
-			"settings":
-			{
-				"buffer_size": 408,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/chat/views.py",
-			"settings":
-			{
-				"buffer_size": 897,
-				"encoding": "UTF-8",
+				"buffer_size": 898,
 				"line_ending": "Windows"
 			}
 		}
@@ -412,22 +295,9 @@
 	},
 	"expanded_folders":
 	[
-		"/E/ytest/Python/Projects",
-		"/E/ytest/Python/Projects/mysite",
-		"/E/ytest/Python/Projects/mysite/chat/templates",
-		"/E/ytest/Python/Projects/mysite/chat/templates/chat",
-		"/E/ytest/Python/Projects/mysite/crm/templates",
-		"/E/ytest/Python/Projects/mysite/crm/templates/crm",
-		"/E/ytest/Python/Projects/mysite/im/static",
-		"/E/ytest/Python/Projects/mysite/im/templates",
-		"/E/ytest/Python/Projects/mysite/im/templates/im",
-		"/E/ytest/Python/Projects/mysite/mysite",
-		"/E/ytest/Python/Projects/realtime11",
-		"/E/ytest/Python/Projects/realtime11/templates",
-		"/E/ytest/Python/Projects/realtime11/templates/realtime",
-		"/E/ytest/Python/Projects/Temp",
-		"/E/ytest/Python/Projects/toos",
-		"/E/ytest/Python/Projects/toos/templates"
+		"/E/ytest/Python/Flask",
+		"/E/ytest/Python/Flask/blog",
+		"/E/ytest/Python/Flask/blog/app"
 	],
 	"file_history":
 	[
@@ -562,7 +432,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -604,449 +474,59 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mysite/mysite/settings.py",
+					"file": "flask.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3716,
+						"buffer_size": 364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								463,
-								393
+								293,
+								293
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 309.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "mysite/crm/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2238,
-								2238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 405.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "mysite/mysite/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1430,
-								1430
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "mysite/im/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								736,
-								736
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "mysite/im/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 806,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								300,
-								300
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "mysite/mysite/templates/nav.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1172,
-								1172
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "mysite/mysite/routing.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "mysite/im/templates/im/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 342,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "mysite/im/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								451,
-								451
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "mysite/im/templates/im/roomlist.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								367,
-								367
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "mysite/im/templates/im/room.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								269,
-								269
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "mysite/im/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1691,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								893,
-								893
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "mysite/im/consumers.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1861,
-								1861
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "dj_home.sublime-project",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "blog/config.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 356,
+						"buffer_size": 1831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								356
+								698,
+								698
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1056,84 +536,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "Temp/list_test.py",
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "blog/manage.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 408,
+						"buffer_size": 898,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								390,
-								390
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"open_with_edit": true,
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "mysite/chat/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 897,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								625
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1179,7 +606,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Anaconda Python Builder",
-	"project": "dj_home27.sublime-project",
+	"project": "flask.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -1220,7 +647,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
