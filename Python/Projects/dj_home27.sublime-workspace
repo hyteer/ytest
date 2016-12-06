@@ -325,19 +325,11 @@
 			}
 		},
 		{
-<<<<<<< HEAD
-			"file": "dj_home.sublime-project",
-			"settings":
-			{
-				"buffer_size": 356,
-				"line_ending": "Unix"
-=======
 			"file": "mysite/im/static/ws.js",
 			"settings":
 			{
 				"buffer_size": 1253,
 				"line_ending": "Windows"
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 			}
 		},
 		{
@@ -424,12 +416,16 @@
 		"/E/ytest/Python/Projects/mysite",
 		"/E/ytest/Python/Projects/mysite/chat/templates",
 		"/E/ytest/Python/Projects/mysite/chat/templates/chat",
+		"/E/ytest/Python/Projects/mysite/crm",
 		"/E/ytest/Python/Projects/mysite/crm/templates",
 		"/E/ytest/Python/Projects/mysite/crm/templates/crm",
+		"/E/ytest/Python/Projects/mysite/im",
 		"/E/ytest/Python/Projects/mysite/im/static",
 		"/E/ytest/Python/Projects/mysite/im/templates",
 		"/E/ytest/Python/Projects/mysite/im/templates/im",
 		"/E/ytest/Python/Projects/mysite/mysite",
+		"/E/ytest/Python/Projects/mysite/mysite/templates",
+		"/E/ytest/Python/Projects/mysite/polls",
 		"/E/ytest/Python/Projects/realtime11",
 		"/E/ytest/Python/Projects/realtime11/templates",
 		"/E/ytest/Python/Projects/realtime11/templates/realtime",
@@ -611,11 +607,7 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
-			"selected": 0,
-=======
 			"selected": 13,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 			"sheets":
 			[
 				{
@@ -631,8 +623,8 @@
 						"selection":
 						[
 							[
-								463,
-								393
+								3596,
+								3596
 							]
 						],
 						"settings":
@@ -642,17 +634,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 309.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-=======
 						"translation.y": 1609.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 					"type": "text"
 				},
 				{
@@ -770,11 +755,7 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 7,
-=======
 					"stack_index": 4,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 					"type": "text"
 				},
 				{
@@ -1043,11 +1024,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 4,
-=======
 					"stack_index": 7,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 					"type": "text"
 				},
 				{
@@ -1165,11 +1142,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 5,
-=======
 					"stack_index": 3,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 					"type": "text"
 				},
 				{
@@ -1419,11 +1392,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 6,
-=======
 					"stack_index": 2,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 					"type": "text"
 				},
 				{
@@ -1583,34 +1552,19 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-=======
 						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 					"type": "text"
 				},
 				{
 					"buffer": 13,
-<<<<<<< HEAD
-					"file": "dj_home.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 356,
-=======
 					"file": "mysite/im/static/ws.js",
 					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 1253,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 						"regions":
 						{
 						},
@@ -1618,19 +1572,11 @@
 						[
 							[
 								0,
-<<<<<<< HEAD
-								356
-=======
 								0
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-=======
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -1708,7 +1654,6 @@
 							"syntax": "Packages/JavaScript Ultimate/JavaScript (DOM).tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1747,8 +1692,6 @@
 									"selector": "source.python - string - constant.numeric"
 								}
 							],
-<<<<<<< HEAD
-=======
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -1838,7 +1781,6 @@
 								"bh_round_close",
 								"bh_round_content"
 							],
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 							"open_with_edit": true,
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
@@ -1846,11 +1788,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 3,
-=======
 					"stack_index": 6,
->>>>>>> e49f90567708b5e70ffff249dfffb2920dd5577e
 					"type": "text"
 				},
 				{
@@ -1978,7 +1916,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
