@@ -14,9 +14,6 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PROJECT_ROOT = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), ".."),
-)
 
 
 # Quick-start development settings - unsuitable for production
@@ -41,18 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #### Third Libs
-    'djangobower',
-    'django_nvd3',
-    #### My Apps
     'tool',
     'crm',
     'tls',
     'chat',
     'channels',
     'im',
-    'realtime',
-    'demo',
 ]
 
 MIDDLEWARE = [
@@ -136,32 +127,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-STATIC_FILES_FINDERS = [
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'djangobower.finders.BowerFinder',
-]
-
-#STATIC_ROOT = os.path.join(BASE_DIR, "static")
 STATIC_URL = '/static/'
-
 STATICFILES_DIRS = [
-    #os.path.join(BASE_DIR, "mysite/static"),
+    os.path.join(BASE_DIR, "mysite/static"),
     'static',
-    os.path.join(BASE_DIR, 'components/bower_components'),
 ]
-
-
-BOWER_COMPONENTS_ROOT = os.path.join(BASE_DIR,'components')
-
-BOWER_INSTALLED_APPS = (
-    'jquery',
-    'd3#3.5.5',
-    'nvd3#1.7.1',
-)
-
-
-####
 
 LOGIN_URL = '/crm/login/'
 
@@ -176,7 +146,3 @@ CHANNEL_LAYERS = {
         "ROUTING": "mysite.routing.channel_routing",
     },
 }
-
-SOCKETIO_HOST = '127.0.0.1'
-SOCKETIO_PORT = 3333
-

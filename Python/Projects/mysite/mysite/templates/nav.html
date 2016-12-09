@@ -18,10 +18,18 @@
                     <li><a href="#">Moderate Comments</a></li>
             </ul>
             </li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Demo <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                    <li><a href="/demo/chart1">Chart1</a></li>
+                    <li><a href="#">ModTest</a></li>
+            </ul>
+            </li>
             <li><a href="{% url 'polls:index' %}">Polls</a></li>
             <li><a href="{% url 'crm:index' %}">CRM</a></li>
             <li><a href="{% url 'chat:index' %}">Chat</a></li>
             <li><a href="{% url 'im:index' %}">IM</a></li>
+            <li><a href="{% url 'realtime:index' %}">Realtime</a></li>
             <li><a href="/admin">Admin</a></li>
             <li><a href="{% url 'about' %}">About</a></li>
         </ul>

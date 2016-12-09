@@ -34,5 +34,9 @@ urlpatterns = [
     url(r'^crm/', include('crm.urls')),
     url(r'^chat/', include('chat.urls')),
     url(r'^im/', include('im.urls')),
+    url(r'^realtime/', include('realtime.urls')),
+    url(r'^demo/', include('demo.urls')),
 
 ]
+
+
