@@ -146,7 +146,7 @@ STATIC_FILES_FINDERS = [
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    #os.path.join(BASE_DIR, "mysite/static"),
+    os.path.join(BASE_DIR, "mysite/static"),
     'static',
     os.path.join(BASE_DIR, 'components/bower_components'),
 ]

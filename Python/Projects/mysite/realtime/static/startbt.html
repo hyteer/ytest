@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Start Stop</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script>
+ var time=null;
+ var list="500万,直升飞机,宇宙飞船,豪华轿车,别墅".split(",");
+ var bol = false;
+function startRun(){
+ var i=Math.random()*list.length;
+ i=Math.floor(i);
+ document.getElementById("award").innerText=list[i];
+ document.getElementById("cc").value="停止";
+ time=setTimeout("startRun()",100);
+}
+function stopRun(){
+  if(time!=null)
+  document.getElementById("cc").value="开始";
+  clearTimeout(time);
+  
+}
+function startorstop(){
+ if(bol)
+  stopRun();
+ else
+  startRun();
+ bol = !bol;
+  
+}
+
+</script>
+</head>
+
+<body>
+ 恭喜您获得的奖品：
+  <div id="award" style="font-size:100px; color:red">
+  </div>
+  <input type="button" id="cc" value="开始" onclick="startorstop()">
+  
+</body>
+</html>
