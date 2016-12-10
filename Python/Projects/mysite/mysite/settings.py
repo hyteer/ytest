@@ -173,7 +173,7 @@ CHANNEL_LAYERS = {
         #"CONFIG": {
         #    "hosts": [("localhost", 6379)],
         #},
-        "ROUTING": "mysite.routing.channel_routing",
+        "ROUTING": "mysite.routing.routing",
     },
 }
 

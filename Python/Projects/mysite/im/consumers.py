@@ -10,10 +10,13 @@ import json
 chatinfo = {}
 # Connected to websocket.connect
 @channel_session
-def ws_connect(message):
+def ws_connect(message, room):
 	global chatinfo
+	print "room %s connect..." % room
 	# Work out room name from path(ignore slashes)
-	room = message.content['path'].strip("/")
+	#import pdb; pdb.set_trace()
+	#room = message.content['path'].strip("/")
+	room = room
 	if not chatinfo.has_key(room):
 		chatinfo[room] = {'num': 1,'person':[]}
 	else:

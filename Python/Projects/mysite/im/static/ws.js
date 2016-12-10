@@ -4,7 +4,7 @@
 room_label = document.getElementsByTagName('h2')[0].innerText;
 
 
-socket = new WebSocket("ws://" + window.location.host + "/"+room_label+"/");
+socket = new WebSocket("ws://" + window.location.host + "/room/"+room_label+"/");
 socket.onmessage = function(msg) {
 	//data = e.data;
     console.log("data:"+msg.data);
