@@ -10,11 +10,12 @@ import json
 
 flag = False
 counter = 0
+textNow = ""
 
 @channel_session
 def ws_realtime_msg_con(msg):
-	global counter
-	print "new connection..."
+	global counter,flag,textNow
+	print("new connection...")
 	realtext = msg.content['path'].strip("/")
 	msg.channel_session['realtext'] = realtext
 	#import pdb; pdb.set_trace()
@@ -22,9 +23,9 @@ def ws_realtime_msg_con(msg):
 	counter += 1
 	#import pdb; pdb.set_trace()
 
-	res1 = {"num": counter, "msg": "you connected"}
+	res1 = {"flag": flag, "num": counter, "text": textNow, "message": "you connected"}
 	res1 = json.dumps(res1)
-	res2 = {"num": counter, "msg": "new one connected"}
+	res2 = {"flag": flag, "num": counter, "text": textNow, "message": "new one connected"}
 	res2 = json.dumps(res2)
 	
 
@@ -61,17 +62,31 @@ def ws_realtime_msg_con(msg):
 			"text": "you connected.",
 			})
 	'''
+	print("Total Connections: %d" % counter)
+
 @channel_session
 def ws_realtime_msg(msg):
+	global flag,textNow
+
 	print "received message: %s" % msg['text']
 
-	while msg['text'] == 'start':
+	if msg['text'] == 'start':
+		flag = True
+	elif msg['text'] == 'stop':
+		flag = False
+	else:
+		print("recieved signal: %s" % msg['text'])
+		pass
+	while flag != False:
+
 		#print(random.randint(1,9))
-		
+		textNow = str(random.randint(100,999))
+		resp = {"flag": flag, "message": "realtime text", "text": textNow}
+		resp = json.dumps(resp)
 		Group(msg.channel_session['realtext']).send({
-			"text":str(random.randint(10,99)),
+			"text": resp,
 			})
-		time.sleep(0.3)
+		time.sleep(1)
 		'''
 		elif msg['text'] == 'stop':
 			print("stop sending.")
@@ -79,8 +94,14 @@ def ws_realtime_msg(msg):
 			return
 		'''
 	else:
-		print("invalid client signal: %s" % msg['text'])
+		print("[action]: realtext stoped.")
+		resp = {"flag": flag, "message": "realtext stoped", "text": textNow}
+		resp = json.dumps(resp)
+		Group(msg.channel_session['realtext']).send({
+			"text": resp
+			})
 	'''
+
 
 	msg.reply_channel.send({
 		"text":msg.content['text'],
@@ -96,6 +117,8 @@ def ws_realtime_msg_disconnect(msg):
 	res = {"num": counter, "msg": "some one disconnected"}
 	res = json.dumps(res)
 	Group(msg.channel_session['realtext']).send({"text":res})
+
+	print("Total Connections: %d" % counter)
 
 
 

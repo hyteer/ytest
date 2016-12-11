@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+</style>
+
+<body>
+<div class="chart">
+  <div style="width: 40px;">4</div>
+  <div style="width: 80px;">8</div>
+  <div style="width: 150px;">15</div>
+  <div style="width: 160px;">16</div>
+  <div style="width: 230px;">23</div>
+  <div style="width: 420px;">42</div>
+</div>
+</body>
+<script>
+// Added by YT
+/************** Websocket Demo: Realtime text ***********/
+flag = false;
+socket = new WebSocket("ws://" + window.location.host + "/real/");
+socket.onopen = function() {
+    //new_msg = "new connect";
+    //socket.send(new_msg);
+    console.log('connected...')
+  }
+
+socket.onmessage = function(msg) {
+    //data = e.data;
+      var data = JSON.parse(msg.data);
+      console.log('[flag]:'+data.flag+', [message]:'+data.message)
+      if(data.flag){
+        flag = true;
+        var msg_container = document.getElementById("realmsg");
+        msg_container.innerText= data.text;
+        document.getElementById("switch").value="stop";
+        console.log("localflag:"+flag);
+      }    
+      else{
+        flag = false;
+        //console.log("[flag]:"+data.flag+", [Message]:"+data.message);  
+        var msg_container = document.getElementById("realmsg");
+        msg_container.innerText= data.text;
+        document.getElementById("switch").value="start";
+        console.log("server:"+msg.data+"localflag:"+flag);
+      }
+  };
+
+function startRealtxt(){
+  
+  socket.send("start");
+  document.getElementById("switch").value="stop";
+  }
+function stopRealtxt(){
+    //socket.close();   // close socket connection
+    socket.send("stop");
+    document.getElementById("switch").value="start";
+  
+  }
+
+function switchReal(){
+  if(!flag)
+    startRealtxt();
+  else
+    stopRealtxt();
+    flag = !flag;
+  
+  }
+
+function switchButtonStatus(){
+  console.log('flag:'+flag);
+  if(flag==false)
+    document.getElementById("switch").value="stop";
+  else
+    document.getElementById("switch").value="start";
+  }
+
+// On Load event
+/*
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function() {
+      oldonload();
+      func();
+    }
+  }
+}
+
+addLoadEvent(switchButtonStatus);
+*/
+
+//room_label = document.getElementsByTagName('h2')[0].innerText;
+
+/*
+socket = new WebSocket("ws://" + window.location.host + "/real/");
+socket.onmessage = function(msg) {
+  //data = e.data;
+    console.log("data:"+msg.data);
+    //var data = JSON.parse(msg.data);
+    
+    var msg_container = document.getElementById("realmsg");
+    msg_container.innerText= msg.data;
+
+
+    //console.log("[Name]:"+data.name+" [Message]:"+data.message);
+   
+};
+*/
+
+
+</script>
+
+</html>

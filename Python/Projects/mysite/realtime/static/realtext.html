@@ -11,7 +11,7 @@ Random item is:
   <input type="button" id="cc" value="start" onclick="startorstop()">
 
   <div>Realtext:
-  <div id="realmsg" style="font-size:16px; color:grey">stream str</div>
+  <div id="realmsg" style="font-size:16px; color:grey">--</div>
   </div>
   <input type="button" id="switch" value="start" onclick="switchReal()">
 
@@ -48,19 +48,30 @@ function startorstop(){
 flag = false;
 socket = new WebSocket("ws://" + window.location.host + "/real/");
 socket.onopen = function() {
-		new_msg = "new connect";
-		socket.send(new_msg);
+		//new_msg = "new connect";
+		//socket.send(new_msg);
+		console.log('connected...')
 	}
 
 socket.onmessage = function(msg) {
 		//data = e.data;
-	    console.log("server:"+msg.data);
-	    //var data = JSON.parse(msg.data);
-	    
-	    var msg_container = document.getElementById("realmsg");
-	    msg_container.innerText= msg.data;
-
-	    //console.log("[Name]:"+data.name+" [Message]:"+data.message);  
+	    var data = JSON.parse(msg.data);
+	    console.log('[flag]:'+data.flag+', [message]:'+data.message)
+	    if(data.flag){
+	    	flag = true;
+	    	var msg_container = document.getElementById("realmsg");
+		    msg_container.innerText= data.text;
+		    document.getElementById("switch").value="stop";
+		    console.log("localflag:"+flag);
+	    }    
+	    else{
+	    	flag = false;
+	    	//console.log("[flag]:"+data.flag+", [Message]:"+data.message);  
+	    	var msg_container = document.getElementById("realmsg");
+		    msg_container.innerText= data.text;
+	    	document.getElementById("switch").value="start";
+	    	console.log("server:"+msg.data+"localflag:"+flag);
+	    }
 	};
 
 function startRealtxt(){
@@ -83,6 +94,31 @@ function switchReal(){
 		flag = !flag;
   
 	}
+
+function switchButtonStatus(){
+	console.log('flag:'+flag);
+	if(flag==false)
+		document.getElementById("switch").value="stop";
+	else
+		document.getElementById("switch").value="start";
+	}
+
+// On Load event
+/*
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+addLoadEvent(switchButtonStatus);
+*/
 
 //room_label = document.getElementsByTagName('h2')[0].innerText;
 
