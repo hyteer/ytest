@@ -60,7 +60,7 @@ def ws_message(msg):
 @channel_session
 def ws_disconnect(msg):
 	global chatinfo
-	import pdb; pdb.set_trace()
+	#import pdb; pdb.set_trace()
 	data = json.loads(msg['text'])
 	username = data['name']
 	roomname = Group(msg.channel_session['room']).name

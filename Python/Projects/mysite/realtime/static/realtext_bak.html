@@ -11,7 +11,7 @@ Random item is:
   <input type="button" id="cc" value="start" onclick="startorstop()">
 
   <div>Realtext:
-  <div id="realmsg" style="font-size:16px; color:grey">stream str</div>
+  <div id="realmsg" style="font-size:24px; color:grey">stream str</div>
   </div>
   <input type="button" id="switch" value="start" onclick="switchReal()">
 
@@ -46,34 +46,28 @@ function startorstop(){
 // Added by YT
 /************** Websocket Demo: Realtime text ***********/
 flag = false;
-socket = new WebSocket("ws://" + window.location.host + "/real/");
-socket.onopen = function() {
-		new_msg = "new connect";
-		socket.send(new_msg);
-	}
-
-socket.onmessage = function(msg) {
+function startRealtxt(){
+	
+	socket = new WebSocket("ws://" + window.location.host + "/real/");
+	socket.onmessage = function(msg) {
 		//data = e.data;
-	    console.log("server:"+msg.data);
+	    console.log("data:"+msg.data);
 	    //var data = JSON.parse(msg.data);
 	    
 	    var msg_container = document.getElementById("realmsg");
 	    msg_container.innerText= msg.data;
 
-	    //console.log("[Name]:"+data.name+" [Message]:"+data.message);  
-	};
 
-function startRealtxt(){
-	
-	socket.send("start");
+	    //console.log("[Name]:"+data.name+" [Message]:"+data.message);
+   
+	};
 	document.getElementById("switch").value="stop";
-	}
+}
 function stopRealtxt(){
-		//socket.close();		// close socket connection
-		socket.send("stop");
+		socket.close();
 		document.getElementById("switch").value="start";
   
-	}
+}
 
 function switchReal(){
 	if(!flag)
@@ -82,7 +76,7 @@ function switchReal(){
 		stopRealtxt();
 		flag = !flag;
   
-	}
+}
 
 //room_label = document.getElementsByTagName('h2')[0].innerText;
 
