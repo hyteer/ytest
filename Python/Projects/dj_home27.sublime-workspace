@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"as",
+				"as_view\tfunction"
+			],
+			[
+				"te",
+				"TemplateView\tclass"
+			],
+			[
 				"tex",
 				"textNow\tstatement"
 			],
@@ -246,19 +254,28 @@
 			}
 		},
 		{
-			"file": "mysite/demo/static/simplebar.html",
+			"file": "mysite/demo/templates/demo/echart/mychart.html",
 			"settings":
 			{
-				"buffer_size": 2820,
+				"buffer_size": 2495,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mysite/realtime/static/realbar.html",
+			"file": "mysite/demo/templates/demo/echart/index.html",
 			"settings":
 			{
-				"buffer_size": 424,
+				"buffer_size": 388,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mysite/demo/urls.py",
+			"settings":
+			{
+				"buffer_size": 588,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -273,18 +290,10 @@
 			}
 		},
 		{
-			"file": "Temp/randstr.py",
-			"settings":
-			{
-				"buffer_size": 131,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "mysite/im/consumers.py",
 			"settings":
 			{
-				"buffer_size": 2834,
+				"buffer_size": 2846,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -303,6 +312,15 @@
 			"settings":
 			{
 				"buffer_size": 1036,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mysite/demo/consumers.py",
+			"settings":
+			{
+				"buffer_size": 1038,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -380,26 +398,37 @@
 	[
 		"/E/ytest/Python/Projects",
 		"/E/ytest/Python/Projects/mysite",
-		"/E/ytest/Python/Projects/mysite/demo/static",
+		"/E/ytest/Python/Projects/mysite/demo",
+		"/E/ytest/Python/Projects/mysite/demo/static/demo",
+		"/E/ytest/Python/Projects/mysite/demo/static/demo/echart",
 		"/E/ytest/Python/Projects/mysite/demo/templates",
 		"/E/ytest/Python/Projects/mysite/demo/templates/demo",
-		"/E/ytest/Python/Projects/mysite/im/static",
+		"/E/ytest/Python/Projects/mysite/demo/templates/demo/echart",
 		"/E/ytest/Python/Projects/mysite/mysite",
+		"/E/ytest/Python/Projects/mysite/mysite/templates",
 		"/E/ytest/Python/Projects/mysite/realtime",
 		"/E/ytest/Python/Projects/mysite/realtime/static",
+		"/E/ytest/Python/Projects/mysite/realtime/templates",
+		"/E/ytest/Python/Projects/mysite/realtime/templates/realtime",
 		"/E/ytest/Python/Projects/mysite/static",
 		"/E/ytest/Python/Projects/Temp"
 	],
 	"file_history":
 	[
+		"/E/ytest/Python/Projects/mysite/demo/static/demo/echart/echart.html",
+		"/E/ytest/Python/Projects/mysite/demo/static/demo/echart/dynamic-data.html",
+		"/E/ytest/Python/Projects/mysite/realtime/static/realbar.html",
+		"/E/ytest/Python/Projects/mysite/demo/views.py",
+		"/E/ytest/Python/Projects/mysite/mysite/templates/nav.html",
+		"/E/ytest/Python/Projects/mysite/demo/static/simplebar.html",
+		"/E/ytest/Python/Projects/mysite/demo/static/demo/nvd3_line.html",
+		"/E/ytest/Python/Projects/mysite/demo/static/demo/cumulativeLineChart.html",
 		"/E/ytest/Python/Projects/mysite/realtime/static/streamstr.html",
 		"/E/ytest/Python/Projects/mysite/im/templates/im/roomlist.html",
 		"/E/ytest/Python/Projects/mysite/chat/views.py",
 		"/E/ytest/Python/Projects/Temp/list_test.py",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/nav.html",
 		"/E/ytest/Python/Projects/mysite/demo/urls.py",
 		"/E/ytest/Python/Projects/mysite/mysite/settings_bak.py",
-		"/E/ytest/Python/Projects/mysite/demo/views.py",
 		"/E/ytest/Python/Projects/mysite/demo/templates/demo/multibar.html",
 		"/E/ytest/Python/Projects/mysite/im/consumers.py",
 		"/E/ytest/Python/Projects/mysite/im/views.py",
@@ -513,13 +542,7 @@
 		"/E/ytest/Python/Projects/django.sublime-project",
 		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Anaconda.sublime-settings",
 		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/JSON.sublime-settings",
-		"/E/ytest/Python/Projects/django.sublime-build",
-		"/E/ytest/Python/Projects/.sublime-project",
-		"/D/Testing/Python/Test/Locust/scsp_loadtest.py",
-		"/D/Testing/Python/Test/Time/time_triger.py",
-		"/D/Testing/Python/Test/Locust/locustfile.py",
-		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/D/Testing/Python/Test/IO/file_test/os_test.py"
+		"/E/ytest/Python/Projects/django.sublime-build"
 	],
 	"find":
 	{
@@ -565,7 +588,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -595,7 +618,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -611,8 +634,8 @@
 						"selection":
 						[
 							[
-								3188,
-								918
+								0,
+								3198
 							]
 						],
 						"settings":
@@ -621,76 +644,112 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "mysite/demo/static/simplebar.html",
+					"file": "mysite/demo/templates/demo/echart/mychart.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2820,
+						"buffer_size": 2495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								447,
-								447
+								745,
+								745
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "mysite/realtime/static/realbar.html",
+					"file": "mysite/demo/templates/demo/echart/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								424,
-								424
+								253,
+								253
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "mysite/demo/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "mysite/realtime/consumers.py",
 					"semi_transient": false,
 					"settings":
@@ -730,35 +789,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Temp/randstr.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 131,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								130,
-								73
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -767,15 +798,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2834,
+						"buffer_size": 2846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1608,
+								1608
 							]
 						],
 						"settings":
@@ -789,16 +820,20 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -828,7 +863,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -867,11 +902,51 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
+					"file": "mysite/demo/consumers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "mysite/mysite/settings.py",
 					"semi_transient": false,
 					"settings":
@@ -897,7 +972,7 @@
 						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -984,7 +1059,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

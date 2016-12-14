@@ -30,7 +30,7 @@ def ws_connect(message, room):
 
 # Connected to websocket.receive
 @channel_session
-def ws_message(msg):
+def ws_message(msg, room):
 	print msg['text'];
 	#time = datetime.now()
 	time = timezone.now()
@@ -58,7 +58,7 @@ def ws_message(msg):
 
 # Connected to websocket.disconnect
 @channel_session
-def ws_disconnect(msg):
+def ws_disconnect(msg, room):
 	global chatinfo
 	#import pdb; pdb.set_trace()
 	data = json.loads(msg['text'])

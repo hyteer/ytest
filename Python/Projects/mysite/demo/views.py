@@ -9,6 +9,9 @@ import time
 def index(req):
 	return render(req, 'demo/index.html')
 
+def echart(req):
+    return render(req, 'demo/echart/index.html')
+
 def piechart(req):
 	xdata = ["Apple", "Apricot", "Avocado", "Banana", "Boysenberries", "Blueberries", "Dates", "Grapefruit", "Kiwi", "Lemon"]
 	ydata = [52, 48, 160, 94, 75, 71, 490, 82, 46, 17]
