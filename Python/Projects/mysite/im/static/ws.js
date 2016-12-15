@@ -13,9 +13,9 @@ socket.onmessage = function(msg) {
     var chat = $("#chat")
     var ele = $('<tr></tr>');
 
-    console.log("[Name]:"+data.name+" [Message]:"+data.message);
-    ele.append($("<td></td>").text(data.name));
-    ele.append($("<td></td>").text(data.message));
+    console.log("[Name]:"+data.info.name+" [Message]:"+data.info.message);
+    ele.append($("<td></td>").text(data.info.name));
+    ele.append($("<td></td>").text(data.info.message));
     ele.append($("<td></td>").text(data.time));
     //alert(ele);
     chat.append(ele);

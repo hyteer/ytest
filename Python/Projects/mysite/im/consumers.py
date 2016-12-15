@@ -6,16 +6,20 @@ from channels.handler import AsgiHandler
 from channels import Group
 from channels.sessions import channel_session
 import json
+import collections 
 
 chatinfo = {}
+
 # Connected to websocket.connect
 @channel_session
-def ws_connect(message, room):
+def ws_connect(msg, room):
 	global chatinfo
+	data = collections.OrderedDict() 
 	print "room %s connect..." % room
+	time = timezone.now()
 	# Work out room name from path(ignore slashes)
 	#import pdb; pdb.set_trace()
-	#room = message.content['path'].strip("/")
+	#room = msg.content['path'].strip("/")
 	room = room
 	if not chatinfo.has_key(room):
 		chatinfo[room] = {'num': 1,'person':[]}
@@ -24,27 +28,41 @@ def ws_connect(message, room):
 	print chatinfo[room]
 	
 	# Save room in session and add us to the group
-	message.channel_session['room'] = room
-	Group(room).add(message.reply_channel)
-	#Group("chat-%s" %room).add(message.reply_channel)
+	msg.channel_session['room'] = room
+	Group(room).add(msg.reply_channel)
+	data['type'] = 1
+	data['info'] = chatinfo[room]
+	data['time'] = str(time)
+	#data = {'type':1,'msg':chatinfo[room],'time':str(time)}			# type1:system message, type2:chat message
+	data = json.dumps(data)
+	Group(msg.channel_session['room']).send({
+		"text": data ,
+		})
+	#Group("chat-%s" %room).add(msg.reply_channel)
 
 # Connected to websocket.receive
 @channel_session
 def ws_message(msg, room):
+	data = collections.OrderedDict()
 	print msg['text'];
 	#time = datetime.now()
 	time = timezone.now()
 	#import pdb; pdb.set_trace()
-	data = json.loads(msg['text'])
+
+	msg_text = json.loads(msg['text'])
 	roomname = Group(msg.channel_session['room']).name
-	username = data['name']
+	username = msg_text['name']
 	print "room:%s,user:%s" % (roomname,username)
 	
 	if not username in chatinfo[roomname]['person']:
 		chatinfo[roomname]['person'].append(username)
 	print chatinfo[roomname]
-	
+
+	data['type'] = 2
+	data['info'] = msg_text
 	data['time'] = str(time)
+	#data = {'type':2,'msg':msg_text,'time':str(time)}		# type1:system message, type2:chat message
+
 	#import pdb; pdb.set_trace()
 	data = json.dumps(data)
 
@@ -60,18 +78,30 @@ def ws_message(msg, room):
 @channel_session
 def ws_disconnect(msg, room):
 	global chatinfo
+	data = collections.OrderedDict()
+	time = timezone.now()
 	#import pdb; pdb.set_trace()
-	data = json.loads(msg['text'])
-	username = data['name']
+	#data = json.loads(msg['text'])
+	#username = data['name']
 	roomname = Group(msg.channel_session['room']).name
 	#Group("chat-%s" % msg.channel_session['room']).discard(message.reply_channel)
 	Group(msg.channel_session['room']).discard(msg.reply_channel)
+	'''
 	if not chatinfo.has_key(roomname):
 		chatinfo[roomname] = {'num': 0}
 	else:
 		chatinfo[roomname]['person'].remove(username)
 		chatinfo[roomname]['num'] -= 1
+	'''
+	chatinfo[roomname]['num'] -= 1
 	print chatinfo[roomname]
+	data['type'] = 1
+	data['info'] = chatinfo[roomname]
+	data['time'] = str(time)
+	data = json.dumps(data)
+	Group(msg.channel_session['room']).send({
+		"text": data,
+		})
 
 
 """
