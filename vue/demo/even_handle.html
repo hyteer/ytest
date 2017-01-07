@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Handle</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="example-1">
+  <button v-on:click="counter += 1">Add 1</button>
+  <p>The button above has been clicked {{ counter }} times.</p>
+</div>
+
+<div id = "example-2">
+<button v-on:click="greet">Greet</button>
+</div>
+
+<div id="example-3">
+  <button v-on:click="say('hi')">Say hi</button>
+  <button v-on:click="say('what')">Say what</button>
+</div>
+
+<div id="example-4">
+  <button v-on:click="warn('Form cannot be submitted yet.', $event)">Submit</button>
+</div>
+<div id="modifier">
+<form v-on:submit.prevent="onSubmit">
+  <input type="submit" value="Submit modifier">
+</form>
+</div>
+<!-- only call vm.submit() when the keyCode is 13 -->
+<div>
+<form id="testform">
+<input v-on:keyup.13="submit">
+<!-- same as above -->
+<input v-on:keyup.enter="submit">
+<!-- Alt + C -->
+<input @keyup.alt.67="clear">
+</form>
+</div>
+
+</body>
+<script>
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    counter: 0
+  }
+})
+
+var example2 = new Vue({
+  el: '#example-2',
+  data:{
+    name: 'vue.js'
+  },
+  methods:{
+    greet: function(event) {
+      alert('hello ' + this.name + '!')
+      alert('tagName:' + event.target.tagName)
+    }
+  }
+})
+
+var example3 = new Vue({
+  el: '#example-3',
+  methods:{
+    say: function(message) {
+      alert('Your message: ' + message)
+    }
+  }
+})
+
+var example4 = new Vue({
+  el: '#example-4',
+  methods:{
+    warn: function(message,event) {
+      if (event)
+        event.preventDefault()
+        alert(message)
+    }
+  }
+})
+
+var testform = new Vue({
+  el: '#testform',
+  methods:{
+    submit: function() {
+      alert('Key 13 up')
+    }
+  }
+})
+
+var modifier = new Vue({
+  el: '#modifier',
+  methods:{
+    onSubmit: function() {
+      alert('modifier test.')
+    }
+  }
+})
+
+
+
+</script>
+
+</html>
