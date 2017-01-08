@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Component</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="example">
+  <my-component></my-component>
+</div>
+
+
+</body>
+<script>
+//register
+Vue.component('my-component',{
+  template: '<div>A custom component!</div>'
+})
+//Created a root instant
+new Vue({
+  el: '#example'
+})
+
+
+
+</script>
+
+</html>

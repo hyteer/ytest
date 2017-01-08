@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Input</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<h3>Input</h3>
+<form id='form-1'>
+  <input v-model="message" placeholder="please input text">
+  <p>Your message is : {{ message }}</p>
+
+<span>Multiline message is:</span>
+<p style="white-space: pre">{{ message }}</p>
+<br>
+<textarea v-model="message" placeholder="add multiple lines"></textarea>
+</form>
+
+<h3>Checkbox</h3>
+<form id="form-2">
+<input type="checkbox" id="checkbox" v-model="checked">
+<label for="checkbox">{{ checked }}</label>
+<br>
+
+
+<input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
+<label for="jack">Jack</label>
+<input type="checkbox" id="john" value="John" v-model="checkedNames">
+<label for="john">John</label>
+<input type="checkbox" id="mike" value="Mike" v-model="checkedNames">
+<label for="mike">Mike</label>
+<br>
+<span>Checked names: {{ checkedNames }}</span>
+</form>
+
+<h3>Radio</h3>
+<form id="form-3">
+<input type="radio" id="one" value="One" v-model="picked">
+<label for="one">One</label>
+<input type="radio" id="two" value="Two" v-model="picked">
+<label for="two">Two</label>
+<br>
+<span>Picked: {{ picked }}</span>
+</form>
+
+<h3>Select</h3>
+<form id="form-4">
+<label>Single Select:</label><br>
+<select v-model="selected">
+  <option>A</option>
+  <option>B</option>
+  <option>C</option>
+</select>
+<span>Selected: {{ selected }}</span><br>
+
+<label>Multiple select (bound to Array):</label><br>
+<select v-model="multi_selected" multiple>
+  <option>A</option>
+  <option>B</option>
+  <option>C</option>
+</select>
+<br>
+<span>Selected: {{ multi_selected }}</span>
+</form>
+
+<form id="form-5">
+<span>Dynamic options rendered with v-for:</span><br>
+<select v-model="selected">
+  <option v-for="option in options" v-bind:value="option.value">
+    {{ option.text }}
+  </option>
+</select>
+<span>Selected: {{ selected }}</span>
+
+</form>
+
+</body>
+<script>
+var form1 = new Vue({
+  el: '#form-1',
+  data: {
+    message: ''
+  }
+})
+
+var form2 = new Vue({
+  el: '#form-2',
+  data: {
+    checked: true,
+    checkedNames: [],
+  }
+})
+
+var form3 = new Vue({
+  el: '#form-3',
+  data: {
+    picked: ''
+  }
+})
+
+new Vue({
+  el: '#form-4',
+  data: {
+    selected: null,
+    multi_selected: []
+  }
+})
+
+new Vue({
+  el: '#form-5',
+  data: {
+    options: [
+    { text: 'one', value: '1'},
+    { text: 'two', value: '2'},
+    { text: 'three', value: '3'},
+    ],
+    selected: null
+  }
+})
+
+</script>
+
+</html>
