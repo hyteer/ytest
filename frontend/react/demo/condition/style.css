@@ -1,0 +1,8 @@
+* {
+  font-family: sans-serif;
+  /*margin: 0;*/
+}
+button {
+  height: 20px;
+  width: 100px;
+}
