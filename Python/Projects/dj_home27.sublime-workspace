@@ -244,65 +244,37 @@
 	"buffers":
 	[
 		{
-			"file": "demosite/demosite/settings.py",
+			"file": "yltek/static/sidebar/sidebar.html",
 			"settings":
 			{
-				"buffer_size": 3245,
+				"buffer_size": 1600,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mysite/mysite/settings.py",
+			"file": "yltek/main/templates/nav.html",
 			"settings":
 			{
-				"buffer_size": 4454,
+				"buffer_size": 3132,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "yltek/yltek/settings.py",
+			"file": "yltek/main/templates/login.html",
 			"settings":
 			{
-				"buffer_size": 3170,
+				"buffer_size": 3056,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "yltek/crm/admin.py",
+			"file": "yltek/static/sidebar/js/index.js",
 			"settings":
 			{
-				"buffer_size": 1369,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "yltek/invent/models.py",
-			"settings":
-			{
-				"buffer_size": 4717,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "yltek/crm/models.py",
-			"settings":
-			{
-				"buffer_size": 2342,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "yltek/invent/admin.py",
-			"settings":
-			{
-				"buffer_size": 2135,
-				"encoding": "UTF-8",
+				"buffer_size": 1080,
 				"line_ending": "Unix"
 			}
 		}
@@ -314,10 +286,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 390.0,
-		"last_filter": "inst",
+		"height": 357.0,
+		"last_filter": "co",
 		"selected_items":
 		[
+			[
+				"co",
+				"Boxy Theme: Configuration"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -369,24 +345,65 @@
 	"expanded_folders":
 	[
 		"/E/ytest/Python/Projects",
-		"/E/ytest/Python/Projects/mysite",
 		"/E/ytest/Python/Projects/mysite/mysite",
 		"/E/ytest/Python/Projects/mysite/mysite/templates",
-		"/E/ytest/Python/Projects/mysite/polls",
-		"/E/ytest/Python/Projects/mysite/realtime",
-		"/E/ytest/Python/Projects/mysite/realtime/static",
-		"/E/ytest/Python/Projects/mysite/realtime/templates",
-		"/E/ytest/Python/Projects/mysite/realtime/templates/realtime",
-		"/E/ytest/Python/Projects/mysite/static",
-		"/E/ytest/Python/Projects/old_mysite",
-		"/E/ytest/Python/Projects/old_mysite/books",
+		"/E/ytest/Python/Projects/react/main",
+		"/E/ytest/Python/Projects/react/main/templates",
+		"/E/ytest/Python/Projects/react/settings",
 		"/E/ytest/Python/Projects/yltek",
-		"/E/ytest/Python/Projects/yltek/crm",
-		"/E/ytest/Python/Projects/yltek/invent",
-		"/E/ytest/Python/Projects/yltek/yltek"
+		"/E/ytest/Python/Projects/yltek/main",
+		"/E/ytest/Python/Projects/yltek/main/templates",
+		"/E/ytest/Python/Projects/yltek/static",
+		"/E/ytest/Python/Projects/yltek/static/css",
+		"/E/ytest/Python/Projects/yltek/static/mobi/css",
+		"/E/ytest/Python/Projects/yltek/static/sidebar/css",
+		"/E/ytest/Python/Projects/yltek/static/sidebar/js"
 	],
 	"file_history":
 	[
+		"/E/Dev/django/react/backend/settings/devl.py",
+		"/E/ytest/Python/Projects/yltek/static/login.html",
+		"/E/ytest/Python/Projects/yltek/main/views.py",
+		"/E/ytest/Python/Projects/yltek/static/sidebar/css/sidebar.css",
+		"/E/ytest/Python/Projects/yltek/static/styles.css",
+		"/E/ytest/Python/Projects/yltek/main/urls.py",
+		"/E/ytest/Python/Projects/yltek/main/templates/base.html",
+		"/E/ytest/Python/Projects/yltek/main/templates/index.html",
+		"/E/ytest/Python/Projects/yltek/static/sidebar/index.html",
+		"/E/Dev/django/react/backend/settings/common.py",
+		"/E/Dev/django/react/manage.py",
+		"/E/Dev/django/react/backend/README.md",
+		"/E/ytest/Python/Projects/yltek/static/mobi/css/style.css",
+		"/E/ytest/Python/Projects/yltek/static/mobi/index.html",
+		"/E/ytest/Python/Projects/yltek/package.json",
+		"/E/ytest/Python/Projects/react/settings/dev.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/E/ytest/Python/Projects/react/main/templates/base.html",
+		"/E/ytest/Python/Projects/react/static/sidebar/css/style.css",
+		"/E/ytest/Python/Projects/react/static/sidebar/index.html",
+		"/E/ytest/Python/Projects/react/main/urls.py",
+		"/E/ytest/Python/Projects/react/main/views.py",
+		"/E/ytest/Python/Projects/mysite/mysite/views.py",
+		"/E/ytest/Python/Projects/react/main/nav.html",
+		"/E/ytest/Python/Projects/react/main/templates/nav.html",
+		"/E/ytest/Python/Projects/react/main/templates/index.html",
+		"/E/ytest/Python/Projects/mysite/mysite/templates/nav.html",
+		"/E/ytest/Python/Projects/react/static/test.html",
+		"/E/ytest/Python/Projects/react/static/admin.html",
+		"/E/ytest/Python/Projects/yltek/yltek/settings.py",
+		"/E/ytest/Python/Projects/mysite/mysite/settings.py",
+		"/E/ytest/Python/Projects/demosite/demosite/settings.py",
+		"/E/ytest/Python/Projects/yltek/crm/admin.py",
+		"/E/ytest/Python/Projects/yltek/invent/models.py",
+		"/E/ytest/Python/Projects/toos/settings/prod.py",
+		"/E/ytest/Python/Projects/toos/manage.py",
+		"/E/Dev/django/erp/invent/models.py",
+		"/E/ytest/Python/Projects/yltek/crm/models.py",
+		"/E/ytest/Python/Projects/toos/settings/__init__.py",
+		"/E/Dev/django/myerp/wms/models.py",
+		"/E/ytest/Python/Projects/yltek/invent/admin.py",
+		"/E/ytest/Python/Projects/mysite/manage.py",
+		"/E/ytest/Python/Projects/react/manage.py",
 		"/E/ytest/Python/Projects/mysite/polls/models.py",
 		"/E/ytest/Python/Projects/old_mysite/books/models.py",
 		"/E/ytest/Python/Projects/mysite/im/consumers.py",
@@ -399,7 +416,6 @@
 		"/E/ytest/Python/Projects/mysite/demo/urls.py",
 		"/E/ytest/Python/Projects/mysite/im/static/ws.js",
 		"/E/ytest/Python/Projects/demosite/templates/nav.html",
-		"/E/ytest/Python/Projects/yltek/crm/models.py",
 		"/E/ytest/Python/Projects/dj_home27.sublime-project",
 		"/E/ytest/Python/Projects/mysite/im/templates/im/room.html",
 		"/E/ytest/Python/Projects/mysite/demo/templates/demo/piechart.html",
@@ -410,12 +426,10 @@
 		"/E/ytest/Python/Projects/mysite/im/static/5chat/index.html",
 		"/E/ytest/Python/Projects/mysite/im/templates/im/index.html",
 		"/E/ytest/Python/Projects/mysite/realtime/consumers.py",
-		"/E/ytest/Python/Projects/mysite/mysite/settings.py",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/echart/echart.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/echart/dynamic-data.html",
 		"/E/ytest/Python/Projects/mysite/realtime/static/realbar.html",
 		"/E/ytest/Python/Projects/mysite/demo/views.py",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/nav.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/simplebar.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/nvd3_line.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/cumulativeLineChart.html",
@@ -474,51 +488,11 @@
 		"/E/ytest/Python/Projects/mysite/realtime/forms.py",
 		"/E/ytest/Python/Projects/mysite/chat/admin.py",
 		"/E/ytest/Python/Projects/mysite/chat/templates/chat/index.html",
-		"/E/ytest/Python/Projects/realtime/realtime/settings.py",
-		"/E/ytest/Python/Projects/realtime/realtime/routing.py",
-		"/E/ytest/Python/Projects/mysite/routing.py",
-		"/E/ytest/Python/Projects/mysite/crm/templates/crm/base.html",
-		"/E/ytest/Python/Projects/mysite/mysite/static/styles.css",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/bootest2.html",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/index_bak.html",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/nav_bak.html",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/admin/base_site.html",
-		"/E/ytest/Python/Projects/mysite/crm/templates/crm/thanks.html",
-		"/E/ytest/Python/Projects/mysite/polls/admin.py",
-		"/E/ytest/Python/Projects/mysite/polls/tests.py",
-		"/E/ytest/Python/Projects/mysite/crm/templates/crm/detail.html",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/__init__.py",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/options.py",
-		"/E/ytest/Python/Projects/mysite/crm/admin.py",
-		"/E/ytest/Python/Projects/mysite/crm/urls.py",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/models.py",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/index.html",
-		"/E/ytest/Python/Projects/mysite/polls/views.py",
-		"/E/ytest/Python/Projects/mysite/polls/urls.py",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/tool.html",
-		"/E/Dev/Test/public/css/nav.htm",
-		"/E/ytest/Python/Projects/mysite/mysite/static/main.css",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/base.html",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/results.html",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/detail.html",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/index.html",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/base.html",
-		"/E/ytest/Python/Projects/mysite/polls/static/polls/style.css",
-		"/E/ytest/Python/Projects/mysite/static/main.css",
-		"/E/ytest/Python/Projects/mysite/tool/views.py",
-		"/E/ytest/Python/Projects/mysite/polls/urls_bak1126.py",
-		"/E/ytest/Python/Projects/mysite/polls/views_bak1126.py",
-		"/E/ytest/Python/Projects/mysite/tool/urls.py",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/index_old.html",
-		"/E/ytest/Python/Projects/mysite/polls/views_bak.py",
-		"/E/ytest/Python/Projects/mysite/mysite/views.py",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/tools.html",
-		"/E/ytest/Python/Projects/mysite/templates/index.html"
+		"/E/ytest/Python/Projects/realtime/realtime/settings.py"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -532,6 +506,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"login",
+			"#FF5B06",
+			"header",
+			"../",
+			"toos",
 			"default",
 			"left-menu",
 			"realtime",
@@ -552,6 +531,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/static/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -562,130 +542,31 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "demosite/demosite/settings.py",
+					"file": "yltek/static/sidebar/sidebar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3245,
+						"buffer_size": 1600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3216,
-								3216
+								253,
+								233
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1170.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "mysite/mysite/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4454,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								983,
-								983
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "yltek/yltek/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3170,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								326,
-								326
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "yltek/crm/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1369,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								224,
-								468
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -695,107 +576,90 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "yltek/invent/models.py",
+					"buffer": 1,
+					"file": "yltek/main/templates/nav.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4717,
+						"buffer_size": 3132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3957,
-								3957
+								3123,
+								3123
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1665.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "yltek/crm/models.py",
+					"buffer": 2,
+					"file": "yltek/main/templates/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2342,
+						"buffer_size": 3056,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								595,
-								598
+								0,
+								3056
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "yltek/invent/admin.py",
+					"buffer": 3,
+					"file": "yltek/static/sidebar/js/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2135,
+						"buffer_size": 1080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1396,
-								1396
+								1030,
+								1030
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -847,7 +711,7 @@
 	"project": "dj_home27.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -885,7 +749,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

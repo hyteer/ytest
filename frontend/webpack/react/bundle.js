@@ -44,7 +44,8 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(1);
+	__webpack_require__(1);
+	module.exports = __webpack_require__(181);
 
 
 /***/ },
@@ -21541,7 +21542,7 @@
 			key: "render",
 			value: function render() {
 				return _react2.default.createElement(
-					"h1",
+					"h3",
 					null,
 					"Hello, ",
 					this.props.name
@@ -21685,6 +21686,14 @@
 	}(_react2.default.Component);
 
 	module.exports = LoginControl;
+
+/***/ },
+/* 181 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	console.log("module demo has been loaded...");
 
 /***/ }
 /******/ ]);
