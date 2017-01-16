@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react-dom.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="text/babel">
+    function Welcome(props) {
+      return <h1>Welcome, {props.name} !</h1>;
+    }
+
+    function Hello(user) {
+      return <h1>Hello, {user.name},your id is {user.id}</h1>;
+    }
+
+    var sara={name:"Sara",id:11};
+
+    function App(user) {
+      const name="YT";
+      return (
+        <div>
+        <Welcome name={name} />
+      <div>Hi { user.name }, your id is { user.id }</div>
+        <Welcome name="Edite" />
+        </div>
+      );
+    }
+    const element=<div>{ App(sara) }</div>;
+
+    ReactDOM.render(
+      element,  //<App />,
+      document.getElementById('root')
+    );
+  </script>
+
+
+  </body>
+</html>
