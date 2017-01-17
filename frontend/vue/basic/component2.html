@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Component2</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<h2>Component2</h2>
+
+
+<div id="example">
+<h3>Props</h3>
+  <child1 message="hi child"></child1>
+</div>
+
+<child message="child outside of parent..."></child>
+
+<h3>Dynamic props</h3>
+<div id="example2">
+  <input v-model="parentMsg">
+  <br>
+  <child2 v-bind:my-message="parentMsg"></child2>
+  <br>
+  <child1 message="child1 in child2's parent dom."></child1>
+  
+</div>
+
+<div id="global-app">
+<h3>Test GLobal Component</h3>
+<child1 message="test child1 globally..."></child1>
+<child2 message="test child2 globally..."></child2>
+</div>
+
+</body>
+<script>
+Vue.component('child1', {
+  // declare the props
+  props: ['message','my-message'],
+  template: '<span>{{ message }}</span>',
+  // just like data, the prop can be used inside templates
+  // and is also made available in the vm as this.message
+  
+})
+
+new Vue({
+	el: "#example"
+})
+
+new Vue({
+  el: '#example2',
+  data: {
+    parentMsg: 'Message from parent'
+  },
+  components: {
+    child2: {
+      props: ['myMessage'],
+      template: '<span>{{myMessage}}</span>'
+    }
+  }
+})
+
+new Vue({
+	el: "#global-app"
+})
+
+</script>
+
+</html>
+
+
+
+
+

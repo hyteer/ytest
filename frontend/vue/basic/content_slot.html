@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Content distribution with Slot</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+<h2>Content distribution with Slot</h2>
+
+<div id="app">
+  <h1>I'm the parent title</h1>
+  <my-component>
+    <p>This is some original content</p>
+    <p>This is some more original content</p>
+  </my-component>
+</div>
+
+
+</body>
+<script>
+Vue.component('my-component',{
+	template:"<div>\
+	  <h2>I'm the child title</h2>\
+	  <h3>{{ content }}</h3>\
+	  <slot>\
+	    This will only be displayed if there is no content\
+	    to be distributed.\
+	  </slot>\
+	</div>",
+	props:{
+		content:{
+			type:String,
+			default:"this is the content."
+		}
+		
+	}
+})
+
+new Vue({
+	el:'#app'
+})
+
+
+</script>
+
+
+
