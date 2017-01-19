@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scoped Slot</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+<h2>Scoped Slot</h2>
+
+<div id="app">
+  <h3>Demo - Mylist</h3>
+  <my-list :items="items">
+    <template slot="item" scope="props">
+    	<li class="my-fancy-item">{{ props.text }}</li>
+    </template>
+  </my-list>
+</div>
+
+
+</body>
+<script>
+Vue.component('my-list',{
+	template:'<ul>\
+	  <slot :v-for="item in items" :text="item.text">\
+	  <!-- fallback content here -->\
+	  </slot>\
+	</ul>',
+})
+
+new Vue({
+	el:'#app',
+	data:{
+		items: ['Good things','Just a test','Python']
+	}
+})
+
+
+</script>
+
+
+
