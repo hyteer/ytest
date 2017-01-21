@@ -2,16 +2,19 @@
   <div id="app">
     <img src="./assets/logo.png">
     <hello></hello>
+    <first></first>
   </div>
 </template>
 
 <script>
 import Hello from './components/Hello'
+import First from './components/First'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Hello,
+    First
   }
 }
 </script>
