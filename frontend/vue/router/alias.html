@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head><title>Route Alias</title>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+
+  <div id="app">
+
+  </div>
+</body>
+
+
+
+<script>
+const A = { template: '<div>This is link A</div>' }
+
+const router = new VueRouter({
+  routes: [
+    { path: '/a', component: A, alias: '/b' }
+  ]
+})
+
+new Vue({
+  router,
+  template:`
+    <div id="app">
+      <h3>Redirect</h3>
+      <router-link to="/a">link-a</router-link>
+      <router-view></router-view>
+    </div>
+  `
+}).$mount('#app')
+
+</script>

@@ -13,7 +13,7 @@ export default {
   name: 'first',
   data () {
     return {
-      msg: 'This is the first demo...',
+      msg: 'This is the first demo,it i\'s cool!...',
       yt: 'YTest'
     }
   }

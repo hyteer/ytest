@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><title>Named router</title>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+
+  <div id="app">
+
+  </div>
+</body>
+
+
+
+<script>
+const linka = { template: '<div>This is link A</div>' }
+const Foo = { template: '<div>i am foo</div>' }
+const Bar = { template: '<div>i am bar</div>' }
+
+const router = new VueRouter({
+routes: [
+  { path: '/a', redirect: '/foo' },
+  { path: '/b', redirect: {name:'bar'} },
+  { path: '/a', name: 'aa', component: linka },
+  { path: '/foo', name: 'foo', component: Foo },
+  { path: '/bar', name: 'bar', component: Bar },
+]
+})
+
+new Vue({
+  router,
+  template:`
+    <div id="app">
+      <h3>Redirect</h3>
+      <router-link to="/a">link-a</router-link>
+      <router-link to="/b">link-b</router-link>
+      <router-view></router-view>
+    </div>
+  `
+}).$mount('#app')
+
+</script>
