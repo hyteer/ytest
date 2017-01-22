@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+<body>
+<div id="app">
+  <h3>Dynamic router</h3>
+  <div>
+    <p>
+    <router-link to="/user/3">Show User</router-link>
+  </p>
+  </div>
+  <!-- route outlet -->
+  <!-- component matched by the route will render here -->
+  <router-view></router-view>
+</div>
+</body>
+
+
+<script>
+const User = {
+  template: '<div>User {{ $route.params.id }}</div>'
+}
+
+const router = new VueRouter({
+  routes: [
+    // dynamic segments start with a colon
+    { path: '/user/:id', component: User }
+  ]
+})
+
+
+</script>
+
+</html>

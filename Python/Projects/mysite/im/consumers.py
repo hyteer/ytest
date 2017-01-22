@@ -44,7 +44,7 @@ def ws_connect(msg, room):
 @channel_session
 def ws_message(msg, room):
 	data = collections.OrderedDict()
-	print msg['text'];
+	print "[TextMsg]: %s" %msg['text'];
 	#time = datetime.now()
 	time = timezone.now()
 	#import pdb; pdb.set_trace()
