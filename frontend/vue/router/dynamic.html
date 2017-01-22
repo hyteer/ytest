@@ -9,7 +9,9 @@
   <h3>Dynamic router</h3>
   <div>
     <p>
-    <router-link to="/user/3">Show User</router-link>
+    <router-link to="/user/YT">Show User</router-link>
+    <router-link to="/user/foo">/user/foo</router-link>
+    <router-link to="/user/bar">/user/bar</router-link>
   </p>
   </div>
   <!-- route outlet -->
@@ -31,6 +33,9 @@ const router = new VueRouter({
   ]
 })
 
+const app = new Vue({
+  router
+}).$mount('#app')
 
 </script>
 
