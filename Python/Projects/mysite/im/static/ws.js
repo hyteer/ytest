@@ -41,6 +41,7 @@ $("#chatform").on("submit", function(event) {
     }
 
     var data = JSON.stringify(data);
+    console.log("Data to Send: "+data);
     //alert(data)
     socket.send(data);
     $("#message").val('').focus();

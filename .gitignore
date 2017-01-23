@@ -1,7 +1,8 @@
-##/venvs/##
-##/node_modules/##
-##.tmp##
-##*_bak##
+**/venvs/**
+**/node_modules/**
+**/build/**
+**/.tmp/**
+**/*_bak/**
 *_bak
 **/.idea/**
 *.pyc

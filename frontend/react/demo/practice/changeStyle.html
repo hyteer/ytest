@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head><title>Grid System</title>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react.min.js"></script>
+   <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react-dom.min.js"></script>
+   <script src="http://static.runoob.com/assets/react/browser.min.js"></script>
+   <style>
+      div {
+        background-color: #abc;
+        border: solid 1px grey;
+        .grid{
+          background-color: #FFF;
+        }
+      }
+
+   </style>
+</head>
+<body>
+  <div id="root">root</div>
+
+</body>
+<script type="text/babel">
+
+      function Header(props){
+        return (
+          <h2>{props.header}</h2>
+        );
+      }
+
+      function Content(props) {
+        console.log("name:"+props.name);
+        //var mainclass = {"grid" + props.name};
+        console.log("main:" + props.name);
+        return(
+          <div className={'grid '+props.name}>
+            <div className="row">
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+            </div>
+            <div className="row">
+              <div className="col-md-8">.col-md-8</div>
+              <div className="col-md-4">.col-md-4</div>
+            </div>
+            <div className="row">
+              <div className="col-md-4">.col-md-4</div>
+              <div className="col-md-4">.col-md-4</div>
+              <div className="col-md-4">.col-md-4</div>
+            </div>
+            <div className="row">
+              <div className="col-md-6">.col-md-6</div>
+              <div className="col-md-6">.col-md-6</div>
+            </div>
+          </div>
+        );
+
+      }
+
+      const fixed = {name:"container", header:"Fixed Grid"};
+      const fluid = {name:"container-fluid", header:"Fluid Grid"};
+      const type = fluid;
+
+      function Element(props){
+        return(
+          <div>
+          <Header header={props.header} />
+          <Content name={props.name} />
+          </div>
+        );
+      }
+
+      const element=<div>{ Content(fluid) }</div>;
+
+      ReactDOM.render(
+        <Element
+        name={type.name}
+        header={type.header} />,
+        document.getElementById('root')
+      );
+</script>
+
+</html>

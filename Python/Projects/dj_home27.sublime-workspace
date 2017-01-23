@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Pro",
+				"ProductBatch\tclass"
+			],
+			[
 				"dum",
 				"dumps\tfunction"
 			],
@@ -240,110 +244,46 @@
 	"buffers":
 	[
 		{
-			"file": "mysite/im/consumers.py",
+			"file": "yltek/static/sidebar/sidebar.html",
 			"settings":
 			{
-				"buffer_size": 3624,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "demosite/demosite/views.py",
-			"settings":
-			{
-				"buffer_size": 294,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "demosite/templates/index.html",
-			"settings":
-			{
-				"buffer_size": 172,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "demosite/templates/about.html",
-			"settings":
-			{
-				"buffer_size": 159,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "demosite/demosite/urls.py",
-			"settings":
-			{
-				"buffer_size": 971,
+				"buffer_size": 1600,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "demosite/demosite/settings.py",
+			"file": "yltek/main/templates/nav.html",
 			"settings":
 			{
-				"buffer_size": 3245,
+				"buffer_size": 3132,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "yltek/main/templates/login.html",
+			"settings":
+			{
+				"buffer_size": 3056,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mysite/mysite/settings.py",
+			"file": "yltek/static/css/sb-admin-2.css",
 			"settings":
 			{
-				"buffer_size": 4438,
-				"line_ending": "Windows"
+				"buffer_size": 8420,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "demosite/templates/nav.html",
+			"file": "yltek/static/sidebar/js/index.js",
 			"settings":
 			{
-				"buffer_size": 1516,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/im/static/ws.js",
-			"settings":
-			{
-				"buffer_size": 1278,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/demo/urls.py",
-			"settings":
-			{
-				"buffer_size": 588,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/mysite/routing.py",
-			"settings":
-			{
-				"buffer_size": 1036,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysite/demo/consumers.py",
-			"settings":
-			{
-				"buffer_size": 1038,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 1080,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -354,10 +294,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 390.0,
-		"last_filter": "inst",
+		"height": 357.0,
+		"last_filter": "co",
 		"selected_items":
 		[
+			[
+				"co",
+				"Boxy Theme: Configuration"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -409,26 +353,70 @@
 	"expanded_folders":
 	[
 		"/E/ytest/Python/Projects",
-		"/E/ytest/Python/Projects/demosite",
-		"/E/ytest/Python/Projects/demosite/demosite",
-		"/E/ytest/Python/Projects/demosite/templates",
-		"/E/ytest/Python/Projects/mysite",
-		"/E/ytest/Python/Projects/mysite/im/static",
-		"/E/ytest/Python/Projects/mysite/im/static/5chat",
-		"/E/ytest/Python/Projects/mysite/im/static/5chat/css",
-		"/E/ytest/Python/Projects/mysite/im/templates",
-		"/E/ytest/Python/Projects/mysite/im/templates/im",
-		"/E/ytest/Python/Projects/mysite/mysite",
-		"/E/ytest/Python/Projects/mysite/mysite/templates",
-		"/E/ytest/Python/Projects/mysite/realtime",
-		"/E/ytest/Python/Projects/mysite/realtime/static",
-		"/E/ytest/Python/Projects/mysite/realtime/templates",
-		"/E/ytest/Python/Projects/mysite/realtime/templates/realtime",
-		"/E/ytest/Python/Projects/mysite/static",
-		"/E/ytest/Python/Projects/Temp"
+		"/E/ytest/Python/Projects/yltek",
+		"/E/ytest/Python/Projects/yltek/main",
+		"/E/ytest/Python/Projects/yltek/main/templates",
+		"/E/ytest/Python/Projects/yltek/static",
+		"/E/ytest/Python/Projects/yltek/static/css"
 	],
 	"file_history":
 	[
+		"/E/Dev/django/react/backend/settings/devl.py",
+		"/E/ytest/Python/Projects/yltek/static/login.html",
+		"/E/ytest/Python/Projects/yltek/main/views.py",
+		"/E/ytest/Python/Projects/yltek/static/sidebar/css/sidebar.css",
+		"/E/ytest/Python/Projects/yltek/static/styles.css",
+		"/E/ytest/Python/Projects/yltek/main/urls.py",
+		"/E/ytest/Python/Projects/yltek/main/templates/base.html",
+		"/E/ytest/Python/Projects/yltek/main/templates/index.html",
+		"/E/ytest/Python/Projects/yltek/static/sidebar/index.html",
+		"/E/Dev/django/react/backend/settings/common.py",
+		"/E/Dev/django/react/manage.py",
+		"/E/Dev/django/react/backend/README.md",
+		"/E/ytest/Python/Projects/yltek/static/mobi/css/style.css",
+		"/E/ytest/Python/Projects/yltek/static/mobi/index.html",
+		"/E/ytest/Python/Projects/yltek/package.json",
+		"/E/ytest/Python/Projects/react/settings/dev.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/E/ytest/Python/Projects/react/main/templates/base.html",
+		"/E/ytest/Python/Projects/react/static/sidebar/css/style.css",
+		"/E/ytest/Python/Projects/react/static/sidebar/index.html",
+		"/E/ytest/Python/Projects/react/main/urls.py",
+		"/E/ytest/Python/Projects/react/main/views.py",
+		"/E/ytest/Python/Projects/mysite/mysite/views.py",
+		"/E/ytest/Python/Projects/react/main/nav.html",
+		"/E/ytest/Python/Projects/react/main/templates/nav.html",
+		"/E/ytest/Python/Projects/react/main/templates/index.html",
+		"/E/ytest/Python/Projects/mysite/mysite/templates/nav.html",
+		"/E/ytest/Python/Projects/react/static/test.html",
+		"/E/ytest/Python/Projects/react/static/admin.html",
+		"/E/ytest/Python/Projects/yltek/yltek/settings.py",
+		"/E/ytest/Python/Projects/mysite/mysite/settings.py",
+		"/E/ytest/Python/Projects/demosite/demosite/settings.py",
+		"/E/ytest/Python/Projects/yltek/crm/admin.py",
+		"/E/ytest/Python/Projects/yltek/invent/models.py",
+		"/E/ytest/Python/Projects/toos/settings/prod.py",
+		"/E/ytest/Python/Projects/toos/manage.py",
+		"/E/Dev/django/erp/invent/models.py",
+		"/E/ytest/Python/Projects/yltek/crm/models.py",
+		"/E/ytest/Python/Projects/toos/settings/__init__.py",
+		"/E/Dev/django/myerp/wms/models.py",
+		"/E/ytest/Python/Projects/yltek/invent/admin.py",
+		"/E/ytest/Python/Projects/mysite/manage.py",
+		"/E/ytest/Python/Projects/react/manage.py",
+		"/E/ytest/Python/Projects/mysite/polls/models.py",
+		"/E/ytest/Python/Projects/old_mysite/books/models.py",
+		"/E/ytest/Python/Projects/mysite/im/consumers.py",
+		"/E/ytest/Python/Projects/demosite/demosite/views.py",
+		"/E/ytest/Python/Projects/demosite/templates/index.html",
+		"/E/ytest/Python/Projects/demosite/templates/about.html",
+		"/E/ytest/Python/Projects/demosite/demosite/urls.py",
+		"/E/ytest/Python/Projects/mysite/demo/consumers.py",
+		"/E/ytest/Python/Projects/mysite/mysite/routing.py",
+		"/E/ytest/Python/Projects/mysite/demo/urls.py",
+		"/E/ytest/Python/Projects/mysite/im/static/ws.js",
+		"/E/ytest/Python/Projects/demosite/templates/nav.html",
+		"/E/ytest/Python/Projects/dj_home27.sublime-project",
 		"/E/ytest/Python/Projects/mysite/im/templates/im/room.html",
 		"/E/ytest/Python/Projects/mysite/demo/templates/demo/piechart.html",
 		"/E/ytest/Python/Projects/mysite/realtime/static/realtext.html",
@@ -438,14 +426,10 @@
 		"/E/ytest/Python/Projects/mysite/im/static/5chat/index.html",
 		"/E/ytest/Python/Projects/mysite/im/templates/im/index.html",
 		"/E/ytest/Python/Projects/mysite/realtime/consumers.py",
-		"/E/ytest/Python/Projects/mysite/im/consumers.py",
-		"/E/ytest/Python/Projects/mysite/im/static/ws.js",
-		"/E/ytest/Python/Projects/mysite/mysite/settings.py",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/echart/echart.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/echart/dynamic-data.html",
 		"/E/ytest/Python/Projects/mysite/realtime/static/realbar.html",
 		"/E/ytest/Python/Projects/mysite/demo/views.py",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/nav.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/simplebar.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/nvd3_line.html",
 		"/E/ytest/Python/Projects/mysite/demo/static/demo/cumulativeLineChart.html",
@@ -453,12 +437,10 @@
 		"/E/ytest/Python/Projects/mysite/im/templates/im/roomlist.html",
 		"/E/ytest/Python/Projects/mysite/chat/views.py",
 		"/E/ytest/Python/Projects/Temp/list_test.py",
-		"/E/ytest/Python/Projects/mysite/demo/urls.py",
 		"/E/ytest/Python/Projects/mysite/mysite/settings_bak.py",
 		"/E/ytest/Python/Projects/mysite/demo/templates/demo/multibar.html",
 		"/E/ytest/Python/Projects/mysite/im/views.py",
 		"/E/ytest/Python/Projects/mysite/im/urls.py",
-		"/E/ytest/Python/Projects/mysite/mysite/routing.py",
 		"/E/ytest/Python/Projects/mysite/mysite/templates/base.html",
 		"/E/ytest/Python/Projects/mysite/im/admin.py",
 		"/E/ytest/Python/Projects/mysite/im/models.py",
@@ -506,61 +488,11 @@
 		"/E/ytest/Python/Projects/mysite/realtime/forms.py",
 		"/E/ytest/Python/Projects/mysite/chat/admin.py",
 		"/E/ytest/Python/Projects/mysite/chat/templates/chat/index.html",
-		"/E/ytest/Python/Projects/realtime/realtime/settings.py",
-		"/E/ytest/Python/Projects/realtime/realtime/routing.py",
-		"/E/ytest/Python/Projects/mysite/routing.py",
-		"/E/ytest/Python/Projects/mysite/crm/templates/crm/base.html",
-		"/E/ytest/Python/Projects/mysite/mysite/static/styles.css",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/bootest2.html",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/index_bak.html",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/nav_bak.html",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/admin/base_site.html",
-		"/E/ytest/Python/Projects/mysite/crm/templates/crm/thanks.html",
-		"/E/ytest/Python/Projects/mysite/polls/admin.py",
-		"/E/ytest/Python/Projects/mysite/polls/tests.py",
-		"/E/ytest/Python/Projects/mysite/polls/models.py",
-		"/E/ytest/Python/Projects/mysite/crm/templates/crm/detail.html",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/__init__.py",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/options.py",
-		"/E/ytest/Python/Projects/mysite/crm/admin.py",
-		"/E/ytest/Python/Projects/mysite/crm/urls.py",
-		"/E/venvs/djenv3/Lib/site-packages/django/contrib/admin/models.py",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/index.html",
-		"/E/ytest/Python/Projects/mysite/polls/views.py",
-		"/E/ytest/Python/Projects/mysite/polls/urls.py",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/tool.html",
-		"/E/Dev/Test/public/css/nav.htm",
-		"/E/ytest/Python/Projects/mysite/mysite/static/main.css",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/base.html",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/results.html",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/detail.html",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/index.html",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/base.html",
-		"/E/ytest/Python/Projects/mysite/polls/static/polls/style.css",
-		"/E/ytest/Python/Projects/mysite/static/main.css",
-		"/E/ytest/Python/Projects/mysite/tool/views.py",
-		"/E/ytest/Python/Projects/mysite/polls/urls_bak1126.py",
-		"/E/ytest/Python/Projects/mysite/polls/views_bak1126.py",
-		"/E/ytest/Python/Projects/mysite/tool/urls.py",
-		"/E/ytest/Python/Projects/mysite/polls/templates/polls/index_old.html",
-		"/E/ytest/Python/Projects/mysite/polls/views_bak.py",
-		"/E/ytest/Python/Projects/mysite/mysite/views.py",
-		"/E/ytest/Python/Projects/mysite/tool/templates/tool/tools.html",
-		"/E/ytest/Python/Projects/mysite/templates/index.html",
-		"/E/ytest/Python/Projects/mysite/templates/index_org.html",
-		"/E/ytest/Python/Projects/mysite/templates/base.html",
-		"/E/ytest/Python/Projects/Temp/timetest.py",
-		"/E/ytest/Python/Projects/mysite/templates/nav.html",
-		"/E/ytest/Python/Projects/mysite/templates/bottom.html",
-		"/E/ytest/Python/Projects/mysite/mysite/templates/index_site.html",
-		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/Pylinter/Pylinter.sublime-settings",
-		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Pylinter.sublime-settings",
-		"/E/Software/Sublime Text Build 3083 x64/Data/Packages/User/Package Control.sublime-settings"
+		"/E/ytest/Python/Projects/realtime/realtime/settings.py"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -574,6 +506,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"login",
+			"#FF5B06",
+			"header",
+			"../",
+			"toos",
+			"default",
 			"left-menu",
 			"realtime",
 			"<!",
@@ -593,6 +531,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/static/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -603,260 +542,54 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mysite/im/consumers.py",
+					"file": "yltek/static/sidebar/sidebar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3624,
+						"buffer_size": 1600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1886,
-								1886
+								253,
+								233
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "demosite/demosite/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								276,
-								276
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "demosite/templates/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								57,
-								57
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "demosite/templates/about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								137,
-								137
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "demosite/demosite/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 971,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								965,
-								965
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "demosite/demosite/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3216,
-								3216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1170.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "mysite/mysite/settings.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 4438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3932,
-								3792
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1710.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "demosite/templates/nav.html",
+					"buffer": 1,
+					"file": "yltek/main/templates/nav.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1516,
+						"buffer_size": 3132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								948,
-								948
+								936,
+								936
 							]
 						],
 						"settings":
@@ -866,88 +599,49 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "mysite/im/static/ws.js",
+					"buffer": 2,
+					"file": "yltek/main/templates/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1278,
+						"buffer_size": 3056,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								487,
-								487
+								677,
+								677
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "mysite/demo/urls.py",
-					"semi_transient": false,
+					"buffer": 3,
+					"file": "yltek/static/css/sb-admin-2.css",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 588,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "mysite/mysite/routing.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1036,
+						"buffer_size": 8420,
 						"regions":
 						{
 						},
@@ -960,64 +654,45 @@
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "mysite/demo/consumers.py",
+					"buffer": 4,
+					"file": "yltek/static/sidebar/js/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1038,
+						"buffer_size": 1080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								604,
-								604
+								999,
+								999
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1066,7 +741,7 @@
 	"project": "dj_home27.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1104,7 +779,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

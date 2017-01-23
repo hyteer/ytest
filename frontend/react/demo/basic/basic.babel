@@ -1,0 +1,7 @@
+const user = "YT see";
+const element = <h3>Hi { user }</h3>;
+
+ReactDOM.render(
+	element,
+	document.getElementById('root')
+);

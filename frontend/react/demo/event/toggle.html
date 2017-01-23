@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Toggle</title>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react-dom.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/browser.min.js"></script>
+  </head>
+  <body>
+  <h3>Event</h3>
+
+    <div id="root"></div>
+    <!--<img src="../res/male.jpg">-->
+
+  <script type="text/babel">
+    class Toggle extends React.Component {
+      constructor(props) {
+        super(props);
+        this.state = {isToggleOn: true};
+
+        // This binding is necessary to make `this` work in the callback
+        this.handleClick = this.handleClick.bind(this);
+      }
+      /*
+      handleClick() {
+        this.setState(prevState => ({
+          isToggleOn: !prevState.isToggleOn
+        }));
+      }
+      */
+
+      handleClick() {
+        this.setState(function(prevState) {
+          return {
+            isToggleOn: !prevState.isToggleOn
+          }
+        });
+      }
+
+      render() {
+        return (
+          <button onClick={this.handleClick}>
+            {this.state.isToggleOn ? 'ON' : 'OFF'}
+          </button>
+        );
+      }
+    }
+
+    class LoggingButton extends React.Component {
+      handleClick() {
+        console.log('this is:', this);
+      }
+
+      render() {
+        // This syntax ensures `this` is bound within handleClick
+        return (
+          <button onClick={(e) => this.handleClick(e)}>
+            Click me
+          </button>
+        );
+      }
+  }
+  const br = <h3>test...<br /></h3>
+  const element = <div><h3>Toggle Demo</h3>
+    <Toggle />{br}<LoggingButton />
+  </div>
+
+
+    React.render(
+      element,  //<LoggingButton />,
+      document.getElementById('root')
+    )
+
+
+</script>
+  </body>
+</html>

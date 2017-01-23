@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Condition - first</title>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react-dom.min.js"></script>
+    <script src="http://static.runoob.com/assets/react/browser.min.js"></script>
+  </head>
+  <body>
+    <h3>Condition - first</h3>
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+    function formatName(user){
+      return user.firstName + " " + user.lastName;
+    }
+
+
+    const elHello = React.createElement(
+      'h1',
+      {className: 'greeting'},
+      'Hello, world!'
+    );
+
+    const elName = <h3>Hi { formatName(user) }</h3>;
+
+    function UserGreeting(user) {
+      return <h1>Welcome back!</h1>;
+    }
+
+    function GuestGreeting(props) {
+      return <h1>Please sign up.</h1>;
+    }
+
+    const el = <div>{ UserGreeting("YT") }</div>;
+    const ele = <p>a simple element...</p>
+
+    React.render(
+      elName,
+      document.getElementById("root")
+
+    )
+
+    </script>
+  </body>
+</html>

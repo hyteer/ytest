@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Component</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="example">
+<h3>example1</h3>
+  <my-component></my-component>
+</div>
+
+<div id="example-2">
+<h3>demo-counter v1</h3>
+  <simple-counter></simple-counter>
+  <simple-counter></simple-counter>
+  <simple-counter></simple-counter>
+</div>
+
+<div id="example-3">
+<h3>demo-counter v2</h3>
+  <simple-counter2></simple-counter2>
+  <simple-counter2></simple-counter2>
+  <simple-counter2></simple-counter2>
+</div>
+
+</body>
+<script>
+//register
+var content = "This is a vue component...";
+Vue.component('my-component',{
+  template: '<div>'+content+'</div>'
+})
+//Created a root instant
+new Vue({
+  el: '#example'
+})
+
+// example2: counter v1
+var data = { counter: 0 }
+Vue.component('simple-counter', {
+  template: '<button v-on:click="counter += 1">{{ counter }}</button>',
+  // data is technically a function, so Vue won't
+  // complain, but we return the same object
+  // reference for each component instance
+  data: function () {
+    return data
+  }
+})
+new Vue({
+  el: '#example-2'
+})
+
+// example3: counter v2
+Vue.component('simple-counter2', {
+  template: '<button v-on:click="counter += 1">{{ counter }}</button>',
+  // data is technically a function, so Vue won't
+  // complain, but we return the same object
+  // reference for each component instance
+  data: function () {
+    return {counter:0}
+  }
+})
+new Vue({
+  el: '#example-3'
+})
+
+</script>
+
+</html>
