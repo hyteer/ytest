@@ -14,6 +14,7 @@
     </nav>
     <div class="container">
       <div class="col-sm-3">
+        <sidebar></sidebar>
       </div>
       <div class="col-sm-9">
         <router-view></router-view>
@@ -23,16 +24,18 @@
 </template>
 
 
-
 <script>
-import Hello from './components/Hello'
+//import Hello from './components/Hello'
 import Home from './components/Home'
+import Sidebar from './components/Sidebar.vue'
+
 
 export default {
   name: 'app',
   components: {
-    Hello,
+    'sidebar':Sidebar,
     Home
+    //Hello
   }
 }
 </script>
